@@ -312,11 +312,31 @@
       if (e.target.name === 'sms_consent') showErr(form, 'sms_consent', false);
     });
     company.addEventListener('input', function () { if (company.value.trim().length >= 2) showErr(form, 'company', false); });
-    guard($('[data-cs-step="1"]', form), function () {
+    var sum = $('[data-request-summary]', form);
+    var sumText = $('[data-request-summary-text]', form);
+    function summary() {
+      var type = $('input[name="service"]:checked', form);
+      var parts = [type ? type.parentNode.textContent.trim() : '', zip.value ? 'ZIP ' + zip.value : '', checked(form, 'start'), size.value.trim()];
+      var text = parts.filter(Boolean).join(' · ');
+      sumText.textContent = text;
+      sum.hidden = !text;
+    }
+    form.addEventListener('change', summary);
+    form.addEventListener('input', summary);
+    var edit = $('[data-request-edit]', form);
+    if (edit) edit.addEventListener('click', function () {
+      var back3 = $('[data-cs-step="3"] [data-cs-back]', form);
+      var back2 = $('[data-cs-step="2"] [data-cs-back]', form);
+      if (back3) back3.click();
+      if (back2) back2.click();
+    });
+    guard($('[data-cs-step="2"]', form), function () {
+      return !checked(form, 'start') ? showErr(form, 'start', true) : showErr(form, 'start', false);
+    });
+    guard($('[data-cs-step="3"]', form), function () {
       var a = company.value.trim().length < 2 ? showErr(form, 'company', true) : showErr(form, 'company', false);
-      var b = !checked(form, 'start') ? showErr(form, 'start', true) : showErr(form, 'start', false);
       var c = !checked(form, 'sms_consent') ? showErr(form, 'sms_consent', true) : showErr(form, 'sms_consent', false);
-      return a || b || c;
+      return a || c;
     }, function () {
       var bits = ['Company: ' + company.value.trim()];
       if (checked(form, 'start')) bits.push('Start: ' + checked(form, 'start'));

@@ -897,7 +897,7 @@ mark.confirm { background: var(--c-slab); color: var(--c-ink); padding: 0 4px; }
 }
 @media (max-width: 860px) {
   .hero2 { display: block; min-height: 0; background: var(--c-cured); }
-  .hero2__media { position: relative; height: clamp(300px, 48svh, 460px); }
+  .hero2__media { position: relative; height: clamp(260px, 36svh, 380px); }
   .hero2__grid { display: block; padding: 0 0 20px; margin-top: -84px; }
   .hero2__plate { margin-right: 24px; }
   .hero2__form { margin-top: 12px; }
@@ -948,3 +948,22 @@ mark.confirm { background: var(--c-slab); color: var(--c-ink); padding: 0 4px; }
   .hero2--gc .hero2__media { height: clamp(190px, 28svh, 240px); }
   .hero2--gc .hero2__grid { margin-top: -56px; }
 }
+
+.h1--xl .h1a { --h1-size: clamp(34px, min(5.4vw, 9.4vh), 76px); --h1-cq: 8.6cqi; line-height: .88; }
+@media (max-width: 640px) { .h1--xl .h1a { --h1-size: clamp(28px, 8.6vw, 38px); } }
+.hero2__plate .h1a, .hero2__plate .h1b { overflow-wrap: break-word; }
+@media (max-width: 640px) and (max-height: 700px) {
+  .hero2--gc .hero2__media { height: 130px; }
+  .hero2--gc .hero2__grid { margin-top: -40px; }
+  .h1--xl .h1a { --h1-size: 26px; }
+}
+@media (max-width: 360px) and (max-height: 700px) {
+  .hero2__plate { padding: 14px 14px 16px; }
+  .hero2--gc .hero2__media { height: 108px; }
+  .qform__title { font-size: 19px; }
+}
+
+.hero2__media img[src*="slab-commercial-during-01"] { object-position: 45% 92% !important; }
+
+.qform--gc .chips { display: grid; grid-template-columns: 1fr 1fr; }
+.qform--gc .chip span { width: 100%; }

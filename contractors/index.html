@@ -187,34 +187,28 @@
   </div>
   <div class="wrap hero2__grid">
     <div class="hero2__plate">
-      <h1 class="h1 h1--long" id="h1"><span class="h1a"><span class="ln"><span>Concrete subcontractor for general contractors in Central&nbsp;Massachusetts</span></span></span></h1>
+      <h1 class="h1 h1--long h1--xl" id="h1"><span class="h1a"><span class="ln"><span>Concrete subcontractor</span></span><span class="ln"><span>for general contractors</span></span><span class="ln"><span>in Central Massachusetts</span></span></span></h1>
     </div>
     <div class="hero2__form" id="estimate" data-hero-form>
 
-<form class="qform qform--gc" id="qf-gc" data-cs-form="bid-gc" data-cs-mode="single" action="/l-oliveira-concrete-preview/api/lead.php" method="post" novalidate aria-labelledby="qf-title-gc" data-gc
+<form class="qform qform--gc" id="qf-gc" data-cs-form="bid-gc" data-cs-mode="steps" action="/l-oliveira-concrete-preview/api/lead.php" method="post" novalidate aria-labelledby="qf-title-gc" data-gc
   data-cs-msg-network="Something went wrong on our end. Try again, or call or text (774) 635-5750."
   data-cs-msg-server="Something went wrong on our end. Try again, or call or text (774) 635-5750."
   data-cs-msg-rate="Too many tries in a row. Wait a minute, or call or text (774) 635-5750.">
   <div class="qform__top">
     <h2 class="qform__title" id="qf-title-gc">Send us the project</h2>
+    <ol class="stepper" data-cs-stepper aria-label="Progress">
+      <li data-cs-stepper-item="1" aria-current="step"><span class="sr-only">Step </span>1</li><li class="rail" data-cs-rail="1" aria-hidden="true"></li>
+      <li data-cs-stepper-item="2"><span class="sr-only">Step </span>2</li><li class="rail" data-cs-rail="2" aria-hidden="true"></li>
+      <li data-cs-stepper-item="3"><span class="sr-only">Step </span>3</li>
+    </ol>
   </div>
   <p class="sr-only" data-cs-live aria-live="polite"></p>
   <div class="cs-hp" aria-hidden="true"><label for="hp-gc">Company website</label><input id="hp-gc" name="company_website" type="text" tabindex="-1" autocomplete="off"></div>
+
   <div class="qstep" data-cs-step="1">
-    <div class="qpair">
-      <div class="field">
-        <label class="lbl" for="company-gc">Company</label>
-        <input class="input" id="company-gc" name="company" autocomplete="organization" maxlength="120">
-        <p class="err" data-error-for="company" hidden>Enter your company name.</p>
-      </div>
-      <div class="field">
-        <label class="lbl" for="name-gc">Your name</label>
-        <input class="input" id="name-gc" name="name" autocomplete="name" maxlength="100">
-        <p class="err" data-cs-error-for="name" hidden>Enter your full name.</p>
-      </div>
-    </div>
     <fieldset class="field">
-      <legend class="lbl">Type of work</legend>
+      <legend class="qstep__q">Type of work</legend>
       <div class="chips">
         <label class="chip"><input type="radio" name="service" value="flatwork-slab"><span>Flatwork / slab</span></label>
         <label class="chip"><input type="radio" name="service" value="monolithic-slab"><span>Monolithic slab</span></label>
@@ -225,19 +219,19 @@
       </div>
       <p class="err" data-cs-error-for="service" hidden>Pick the type of work.</p>
     </fieldset>
-    <div class="qpair">
-      <div class="field">
-        <label class="lbl" for="zip-gc">Project ZIP code</label>
+    <div class="field field--zip">
+      <label class="lbl" for="zip-gc">Project ZIP code</label>
+      <div class="zipline">
         <input class="input input--num" id="zip-gc" name="zip" inputmode="numeric" autocomplete="postal-code" maxlength="5" placeholder="e.g. 01570">
-        <p class="err" data-cs-error-for="zip" hidden>Enter a 5-digit MA ZIP code.</p>
-        <p class="help help--warn" data-zip-ct hidden>We don't work in Connecticut. If the project is in Massachusetts, check the&nbsp;ZIP.</p>
-        <p class="help help--warn" data-cs-out-of-area hidden>That ZIP is outside our usual area. Send it anyway, or call (774) 635-5750. We may still&nbsp;help.</p>
+        <button class="btn btn--primary qnext" type="button" data-cs-next>Next<svg class="ic" aria-hidden="true"><use href="#i-arrow-right"></use></svg></button>
       </div>
-      <div class="field">
-        <label class="lbl" for="size-gc">Approximate size (sq ft or cubic yards) <span class="opt">optional</span></label>
-        <input class="input" id="size-gc" name="size_text" maxlength="60">
-      </div>
+      <p class="err" data-cs-error-for="zip" hidden>Enter a 5-digit MA ZIP code.</p>
+      <p class="help help--warn" data-zip-ct hidden>We don't work in Connecticut. If the project is in Massachusetts, check the&nbsp;ZIP.</p>
+      <p class="help help--warn" data-cs-out-of-area hidden>That ZIP is outside our usual area. Send it anyway, or call (774) 635-5750. We may still&nbsp;help.</p>
     </div>
+  </div>
+
+  <div class="qstep" data-cs-step="2" hidden>
     <fieldset class="field">
       <legend class="lbl">Start</legend>
       <div class="chips">
@@ -249,9 +243,37 @@
       <p class="err" data-error-for="start" hidden>Pick when you'd like it&nbsp;done.</p>
     </fieldset>
     <div class="field">
+      <label class="lbl" for="size-gc">Approximate size (sq ft or cubic yards) <span class="opt">optional</span></label>
+      <input class="input" id="size-gc" name="size_text" maxlength="60">
+    </div>
+    <div class="field">
       <label class="lbl" for="details-gc">Notes <span class="opt">(optional)</span></label>
       <textarea class="input" id="details-gc" name="details" rows="3" maxlength="760" placeholder="Plans available? Site access, schedule, pump or chute…" data-note></textarea>
       <p class="err" data-cs-error-for="details" hidden>Keep it under 1,000 characters.</p>
+    </div>
+    <div class="qactions">
+      <button class="btn btn--back" type="button" data-cs-back><svg class="ic" aria-hidden="true"><use href="#i-arrow-left"></use></svg>Back</button>
+      <button class="btn btn--primary" type="button" data-cs-next>Next<svg class="ic" aria-hidden="true"><use href="#i-arrow-right"></use></svg></button>
+    </div>
+  </div>
+
+  <div class="qstep" data-cs-step="3" hidden>
+    <div class="qsum" data-request-summary hidden>
+      <p class="qsum__k">Your request</p>
+      <p class="qsum__v" data-request-summary-text></p>
+      <button class="qsum__edit" type="button" data-request-edit>Edit</button>
+    </div>
+    <div class="qpair">
+      <div class="field">
+        <label class="lbl" for="company-gc">Company</label>
+        <input class="input" id="company-gc" name="company" autocomplete="organization" maxlength="120">
+        <p class="err" data-error-for="company" hidden>Enter your company name.</p>
+      </div>
+      <div class="field">
+        <label class="lbl" for="name-gc">Your name</label>
+        <input class="input" id="name-gc" name="name" autocomplete="name" maxlength="100">
+        <p class="err" data-cs-error-for="name" hidden>Enter your full name.</p>
+      </div>
     </div>
     <div class="qpair">
       <div class="field">
@@ -274,14 +296,17 @@
     </fieldset>
     <p class="qstatus" data-cs-status role="alert" hidden></p>
     <div class="qactions">
+      <button class="btn btn--back" type="button" data-cs-back><svg class="ic" aria-hidden="true"><use href="#i-arrow-left"></use></svg>Back</button>
       <button class="btn btn--primary" type="submit" data-cs-loading-label="Sending…">Request a Bid<svg class="ic" aria-hidden="true"><use href="#i-arrow-right"></use></svg></button>
     </div>
     <p class="qlegal">By sending this request, you agree to our <a href="/l-oliveira-concrete-preview/terms/">Terms</a> and <a href="/l-oliveira-concrete-preview/privacy/">Privacy&nbsp;Policy</a>.</p>
   </div>
+
   <div class="qdone" data-cs-step="done" hidden>
     <svg class="ic qdone__ic" aria-hidden="true"><use href="#i-check"></use></svg>
     <h3 class="qdone__title" tabindex="-1">Got it. We'll call you about the&nbsp;project.</h3>
   </div>
+  <p class="qtalk">Bidding a job? <a href="tel:+17746355750" data-cta="form-phone" data-cta-location="form-gc">Call</a> or <a href="sms:+17746355750" data-cta="form-sms" data-cta-location="form-gc" data-sms>text</a> (774)&nbsp;635-5750, Mon–Sat 7am–6pm.</p>
 </form>
 
     </div>
