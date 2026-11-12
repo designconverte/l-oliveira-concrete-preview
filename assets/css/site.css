@@ -414,6 +414,20 @@ a.trust__v:hover { color: var(--c-orange-text); }
 .area { display: grid; grid-template-columns: minmax(0, 5fr) minmax(0, 7fr); gap: clamp(32px, 5vw, 80px); align-items: center; }
 .area__copy { display: grid; gap: 18px; justify-items: start; }
 .area__p { font: var(--t-lead); font-family: var(--f-text); color: var(--c-muted); max-width: 46ch; }
+.area__towns { display: grid; gap: 6px; max-width: 46ch; font-size: 17px; line-height: 1.55; font-weight: 600; color: var(--c-ink); }
+
+.towns__head { margin-bottom: clamp(28px, 4vw, 48px); }
+.towns { display: grid; grid-template-columns: repeat(4, minmax(0, 1fr)); gap: clamp(24px, 3vw, 48px); }
+.towns__grp { border-top: 2px solid var(--c-ink); padding-top: 16px; }
+.towns__t { display: grid; gap: 6px; font: var(--t-label); font-family: var(--f-lab); font-size: 13px; letter-spacing: .1em; text-transform: uppercase; color: var(--c-ink); margin-bottom: 10px; }
+.towns__t span { color: var(--c-orange-text); }
+.towns__list li { padding: 9px 0; border-bottom: 1px solid var(--line); font-size: 18px; line-height: 1.35; font-weight: 600; }
+.towns__list .is-key { display: flex; align-items: center; gap: 10px; font-family: var(--f-disp); font-stretch: 70%; font-weight: 900; text-transform: uppercase; font-size: 22px; letter-spacing: .01em; }
+.towns__list .is-key::before { content: ''; width: 10px; height: 10px; background: var(--c-orange); flex: none; }
+.towns__note { margin-top: clamp(24px, 3vw, 36px); color: var(--c-muted); font-size: 16px; max-width: 64ch; }
+.towns__note a { color: var(--c-orange-text); font-weight: 700; }
+@media (max-width: 1024px) { .towns { grid-template-columns: repeat(2, minmax(0, 1fr)); } }
+@media (max-width: 480px) { .towns { grid-template-columns: minmax(0, 1fr); gap: 28px; } }
 .map { position: relative; }
 .map svg { width: 100%; height: auto; overflow: visible; }
 .map__t { font: 500 13px/1 var(--f-lab); letter-spacing: .1em; text-transform: uppercase; fill: var(--c-ink); }

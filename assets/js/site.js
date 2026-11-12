@@ -213,6 +213,17 @@
     note.value = prefix + (own.trim() ? '\nNotes: ' + own.trim() : '');
     setTimeout(function () { note.value = own; note.csPending = false; }, 0);
   }
+  // every ZIP goes through; one outside the advertised area (Massachusetts, 40 miles of Webster) gets a note at the
+  // start of "details" so the office sees it. The exact radius needs the client's town list; until then: by state.
+  function areaNote(zip) {
+    var z = (zip || '').trim();
+    if (!/^\d{5}$/.test(z)) return '';
+    var n = +z.slice(0, 3);
+    if (n >= 10 && n <= 27) return '';
+    if (n >= 60 && n <= 69) return 'Outside service area (Connecticut ZIP)';
+    if (n >= 28 && n <= 29) return 'Check service area (Rhode Island ZIP)';
+    return 'Outside service area (ZIP outside Massachusetts)';
+  }
   function guard(stepEl, check, onPass) {
     if (!stepEl) return;
     stepEl.addEventListener('click', function (e) {
@@ -234,7 +245,6 @@
     var note = $('[data-note]', form);
     var finish = $('[data-finish-field]', form);
     var stepsNote = $('[data-steps-note]', form);
-    var ct = $('[data-zip-ct]', form);
     var zip = $('input[name="zip"]', form);
     var sum = $('[data-request-summary]', form);
     var sumText = $('[data-request-summary-text]', form);
@@ -263,10 +273,7 @@
       if (e.target.name === 'sms_consent') showErr(form, 'sms_consent', false);
       sync();
     });
-    zip.addEventListener('input', function () {
-      ct.hidden = !/^06\d{3}$/.test(zip.value);
-      summary();
-    });
+    zip.addEventListener('input', summary);
 
     // a link like /estimate/?service=patio arrives with that service marked
     var want = new URLSearchParams(window.location.search).get('service');
@@ -285,11 +292,11 @@
     guard($('[data-cs-step="3"]', form), function () {
       return !checked(form, 'sms_consent') ? showErr(form, 'sms_consent', true) : showErr(form, 'sms_consent', false);
     }, function () {
-      var bits = [];
+      var bits = [areaNote(zip.value)];
       if (!finish.hidden && checked(form, 'finish')) bits.push('Finish: ' + checked(form, 'finish'));
       if (checked(form, 'size')) bits.push('Size: ' + checked(form, 'size'));
       if (checked(form, 'timing')) bits.push('Timing: ' + checked(form, 'timing'));
-      withDetails(form, bits.join(' · '));
+      withDetails(form, bits.filter(Boolean).join(' · '));
     });
 
     var edit = $('[data-request-edit]', form);
@@ -302,11 +309,9 @@
   });
 
   $$('form[data-gc]').forEach(function (form) {
-    var ct = $('[data-zip-ct]', form);
     var zip = $('input[name="zip"]', form);
     var company = $('input[name="company"]', form);
     var size = $('input[name="size_text"]', form);
-    zip.addEventListener('input', function () { ct.hidden = !/^06\d{3}$/.test(zip.value); });
     form.addEventListener('change', function (e) {
       if (e.target.name === 'start') showErr(form, 'start', false);
       if (e.target.name === 'sms_consent') showErr(form, 'sms_consent', false);
@@ -338,10 +343,10 @@
       var c = !checked(form, 'sms_consent') ? showErr(form, 'sms_consent', true) : showErr(form, 'sms_consent', false);
       return a || c;
     }, function () {
-      var bits = ['Company: ' + company.value.trim()];
+      var bits = [areaNote(zip.value), 'Company: ' + company.value.trim()];
       if (checked(form, 'start')) bits.push('Start: ' + checked(form, 'start'));
       if (size.value.trim()) bits.push('Size: ' + size.value.trim());
-      withDetails(form, bits.join(' · '));
+      withDetails(form, bits.filter(Boolean).join(' · '));
     });
   });
 
