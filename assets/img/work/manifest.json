@@ -1,0 +1,4156 @@
+{
+  "project": "l-oliveira-concrete",
+  "generated": "2026-11-11",
+  "note": "Fotos reais do cliente. Fontes em midias/raw (capturas ~1290-1320 px, não originais de câmera). Convertidas de Display P3 para sRGB, metadados removidos, sem filtro/retoque/upscaling.",
+  "formats": [
+    "jpg (q82 web / q88 master)",
+    "webp (q78)",
+    "avif (q55)"
+  ],
+  "widths": "480, 800, 1200 e a largura original (≤1320); nunca acima do original",
+  "photos": [
+    {
+      "id": "pool-deck-stamped-01",
+      "file": "pool-deck-stamped-01.jpg",
+      "source": "midias/raw/pool/12VMBl_IMG_7700.PNG",
+      "width": 1262,
+      "height": 1421,
+      "aspect": 0.888,
+      "orientation": "portrait",
+      "service": "pool-deck",
+      "finish": "stamped (seamless stone texture)",
+      "moment": "after",
+      "hero": true,
+      "lcp_ok": true,
+      "composition": "Céu limpo ocupa ~45% superior: espaço para título acima (esquerda ou direita). Piscina e pergolado no terço médio; deck em 1º plano. Vertical: ótimo hero mobile.",
+      "alt": "Rectangular pool with a gray stamped concrete deck and a wood pergola under a clear sky",
+      "dominant_color": "#8D8E8B",
+      "focal_point": {
+        "x": 45,
+        "y": 62,
+        "object_position": "45% 62%"
+      },
+      "processing": [
+        "nenhum corte"
+      ],
+      "notes": "preview do cliente (PRV IMG_7700)",
+      "variants": [
+        {
+          "w": 480,
+          "h": 540,
+          "jpg": "pool-deck-stamped-01-480.jpg",
+          "webp": "pool-deck-stamped-01-480.webp",
+          "avif": "pool-deck-stamped-01-480.avif",
+          "bytes": {
+            "jpg": 46681,
+            "webp": 34372,
+            "avif": 22989
+          }
+        },
+        {
+          "w": 800,
+          "h": 901,
+          "jpg": "pool-deck-stamped-01-800.jpg",
+          "webp": "pool-deck-stamped-01-800.webp",
+          "avif": "pool-deck-stamped-01-800.avif",
+          "bytes": {
+            "jpg": 131465,
+            "webp": 99046,
+            "avif": 64933
+          }
+        },
+        {
+          "w": 1200,
+          "h": 1351,
+          "jpg": "pool-deck-stamped-01-1200.jpg",
+          "webp": "pool-deck-stamped-01-1200.webp",
+          "avif": "pool-deck-stamped-01-1200.avif",
+          "bytes": {
+            "jpg": 278709,
+            "webp": 206618,
+            "avif": 136554
+          }
+        },
+        {
+          "w": 1262,
+          "h": 1421,
+          "jpg": "pool-deck-stamped-01-1262.jpg",
+          "webp": "pool-deck-stamped-01-1262.webp",
+          "avif": "pool-deck-stamped-01-1262.avif",
+          "bytes": {
+            "jpg": 310917,
+            "webp": 229696,
+            "avif": 152401
+          }
+        }
+      ]
+    },
+    {
+      "id": "pool-deck-stamped-02",
+      "file": "pool-deck-stamped-02.jpg",
+      "source": "midias/raw/pool/1R59Pu_IMG_7256.PNG",
+      "width": 1320,
+      "height": 928,
+      "aspect": 1.422,
+      "orientation": "landscape",
+      "service": "pool-deck",
+      "finish": "stamped (seamless + circular medallion)",
+      "moment": "after",
+      "hero": true,
+      "lcp_ok": true,
+      "composition": "Pool house branca à esquerda, mata de outono ao fundo, medalhão estampado à direita. Pouco céu: texto à direita sobre placa Ink sólida.",
+      "alt": "Stamped concrete pool deck with a darker border and a circular stamped medallion, pool house and fall trees behind",
+      "dominant_color": "#3F3A26",
+      "focal_point": {
+        "x": 40,
+        "y": 55,
+        "object_position": "40% 55%"
+      },
+      "processing": [
+        "nenhum corte"
+      ],
+      "notes": "",
+      "variants": [
+        {
+          "w": 480,
+          "h": 337,
+          "jpg": "pool-deck-stamped-02-480.jpg",
+          "webp": "pool-deck-stamped-02-480.webp",
+          "avif": "pool-deck-stamped-02-480.avif",
+          "bytes": {
+            "jpg": 43249,
+            "webp": 34462,
+            "avif": 21916
+          }
+        },
+        {
+          "w": 800,
+          "h": 562,
+          "jpg": "pool-deck-stamped-02-800.jpg",
+          "webp": "pool-deck-stamped-02-800.webp",
+          "avif": "pool-deck-stamped-02-800.avif",
+          "bytes": {
+            "jpg": 120503,
+            "webp": 98310,
+            "avif": 61583
+          }
+        },
+        {
+          "w": 1200,
+          "h": 844,
+          "jpg": "pool-deck-stamped-02-1200.jpg",
+          "webp": "pool-deck-stamped-02-1200.webp",
+          "avif": "pool-deck-stamped-02-1200.avif",
+          "bytes": {
+            "jpg": 262278,
+            "webp": 207998,
+            "avif": 131829
+          }
+        },
+        {
+          "w": 1320,
+          "h": 928,
+          "jpg": "pool-deck-stamped-02-1320.jpg",
+          "webp": "pool-deck-stamped-02-1320.webp",
+          "avif": "pool-deck-stamped-02-1320.avif",
+          "bytes": {
+            "jpg": 319129,
+            "webp": 259270,
+            "avif": 163019
+          }
+        }
+      ]
+    },
+    {
+      "id": "pool-deck-stamped-03",
+      "file": "pool-deck-stamped-03.jpg",
+      "source": "midias/raw/pool/1v8Ryl_IMG_7278.PNG",
+      "width": 1320,
+      "height": 967,
+      "aspect": 1.365,
+      "orientation": "landscape",
+      "service": "pool-deck",
+      "finish": "stamped (seamless)",
+      "moment": "after",
+      "hero": true,
+      "lcp_ok": true,
+      "composition": "Piscina free-form azul no centro, gazebo à direita, paisagismo com flores. Metade esquerda superior (mata) aceita texto em placa Ink.",
+      "alt": "Free-form pool with a light gray stamped concrete deck, river-rock landscaping and a wood gazebo",
+      "dominant_color": "#374030",
+      "focal_point": {
+        "x": 55,
+        "y": 55,
+        "object_position": "55% 55%"
+      },
+      "processing": [
+        "nenhum corte"
+      ],
+      "notes": "",
+      "variants": [
+        {
+          "w": 480,
+          "h": 352,
+          "jpg": "pool-deck-stamped-03-480.jpg",
+          "webp": "pool-deck-stamped-03-480.webp",
+          "avif": "pool-deck-stamped-03-480.avif",
+          "bytes": {
+            "jpg": 51624,
+            "webp": 45776,
+            "avif": 27240
+          }
+        },
+        {
+          "w": 800,
+          "h": 586,
+          "jpg": "pool-deck-stamped-03-800.jpg",
+          "webp": "pool-deck-stamped-03-800.webp",
+          "avif": "pool-deck-stamped-03-800.avif",
+          "bytes": {
+            "jpg": 147000,
+            "webp": 131756,
+            "avif": 75793
+          }
+        },
+        {
+          "w": 1200,
+          "h": 879,
+          "jpg": "pool-deck-stamped-03-1200.jpg",
+          "webp": "pool-deck-stamped-03-1200.webp",
+          "avif": "pool-deck-stamped-03-1200.avif",
+          "bytes": {
+            "jpg": 321779,
+            "webp": 282626,
+            "avif": 162998
+          }
+        },
+        {
+          "w": 1320,
+          "h": 967,
+          "jpg": "pool-deck-stamped-03-1320.jpg",
+          "webp": "pool-deck-stamped-03-1320.webp",
+          "avif": "pool-deck-stamped-03-1320.avif",
+          "bytes": {
+            "jpg": 393868,
+            "webp": 349670,
+            "avif": 201631
+          }
+        }
+      ]
+    },
+    {
+      "id": "pool-deck-stamped-04",
+      "file": "pool-deck-stamped-04.jpg",
+      "source": "midias/raw/pool/1HlTxB_IMG_3900.PNG",
+      "width": 1290,
+      "height": 1367,
+      "aspect": 0.944,
+      "orientation": "square",
+      "service": "pool-deck",
+      "finish": "stamped (seamless, dark gray)",
+      "moment": "after (recém-concluído, entorno sem paisagismo)",
+      "hero": true,
+      "lcp_ok": true,
+      "composition": "Pôr do sol: céu ~35% superior, ótimo para título. Entorno ainda em cascalho/terra (obra recém-entregue).",
+      "alt": "Newly finished stamped concrete pool deck at sunset, with the yard still unlandscaped",
+      "dominant_color": "#3F3C3E",
+      "focal_point": {
+        "x": 50,
+        "y": 52,
+        "object_position": "50% 52%"
+      },
+      "processing": [
+        "nenhum corte"
+      ],
+      "notes": "",
+      "variants": [
+        {
+          "w": 480,
+          "h": 509,
+          "jpg": "pool-deck-stamped-04-480.jpg",
+          "webp": "pool-deck-stamped-04-480.webp",
+          "avif": "pool-deck-stamped-04-480.avif",
+          "bytes": {
+            "jpg": 66719,
+            "webp": 54418,
+            "avif": 33086
+          }
+        },
+        {
+          "w": 800,
+          "h": 848,
+          "jpg": "pool-deck-stamped-04-800.jpg",
+          "webp": "pool-deck-stamped-04-800.webp",
+          "avif": "pool-deck-stamped-04-800.avif",
+          "bytes": {
+            "jpg": 182338,
+            "webp": 149298,
+            "avif": 90066
+          }
+        },
+        {
+          "w": 1200,
+          "h": 1272,
+          "jpg": "pool-deck-stamped-04-1200.jpg",
+          "webp": "pool-deck-stamped-04-1200.webp",
+          "avif": "pool-deck-stamped-04-1200.avif",
+          "bytes": {
+            "jpg": 380045,
+            "webp": 307542,
+            "avif": 181244
+          }
+        },
+        {
+          "w": 1290,
+          "h": 1367,
+          "jpg": "pool-deck-stamped-04-1290.jpg",
+          "webp": "pool-deck-stamped-04-1290.webp",
+          "avif": "pool-deck-stamped-04-1290.avif",
+          "bytes": {
+            "jpg": 436867,
+            "webp": 354290,
+            "avif": 209716
+          }
+        }
+      ]
+    },
+    {
+      "id": "pool-deck-stamped-05",
+      "file": "pool-deck-stamped-05.jpg",
+      "source": "midias/raw/pool/1CYf3s_IMG_6069.PNG",
+      "width": 1320,
+      "height": 1544,
+      "aspect": 0.855,
+      "orientation": "portrait",
+      "service": "pool-deck",
+      "finish": "stamped (seamless)",
+      "moment": "after",
+      "hero": false,
+      "lcp_ok": false,
+      "composition": "Vertical; céu ~25% superior; pergolado escuro e casas grandes ao fundo; canteiro de seixos à frente.",
+      "alt": "Gray stamped concrete deck around a rectangular pool with a dark pergola and a river-rock bed",
+      "dominant_color": "#9B9289",
+      "focal_point": {
+        "x": 35,
+        "y": 55,
+        "object_position": "35% 55%"
+      },
+      "processing": [
+        "nenhum corte"
+      ],
+      "notes": "",
+      "variants": [
+        {
+          "w": 480,
+          "h": 561,
+          "jpg": "pool-deck-stamped-05-480.jpg",
+          "webp": "pool-deck-stamped-05-480.webp",
+          "avif": "pool-deck-stamped-05-480.avif",
+          "bytes": {
+            "jpg": 60462,
+            "webp": 44500,
+            "avif": 28901
+          }
+        },
+        {
+          "w": 800,
+          "h": 936,
+          "jpg": "pool-deck-stamped-05-800.jpg",
+          "webp": "pool-deck-stamped-05-800.webp",
+          "avif": "pool-deck-stamped-05-800.avif",
+          "bytes": {
+            "jpg": 149490,
+            "webp": 104750,
+            "avif": 69217
+          }
+        },
+        {
+          "w": 1200,
+          "h": 1404,
+          "jpg": "pool-deck-stamped-05-1200.jpg",
+          "webp": "pool-deck-stamped-05-1200.webp",
+          "avif": "pool-deck-stamped-05-1200.avif",
+          "bytes": {
+            "jpg": 289483,
+            "webp": 183134,
+            "avif": 129045
+          }
+        },
+        {
+          "w": 1320,
+          "h": 1544,
+          "jpg": "pool-deck-stamped-05-1320.jpg",
+          "webp": "pool-deck-stamped-05-1320.webp",
+          "avif": "pool-deck-stamped-05-1320.avif",
+          "bytes": {
+            "jpg": 337659,
+            "webp": 208728,
+            "avif": 148044
+          }
+        }
+      ]
+    },
+    {
+      "id": "pool-deck-stamped-06",
+      "file": "pool-deck-stamped-06.jpg",
+      "source": "midias/raw/pool/1Clqf7_IMG_7247.PNG",
+      "width": 1320,
+      "height": 971,
+      "aspect": 1.359,
+      "orientation": "landscape",
+      "service": "pool-deck",
+      "finish": "stamped (flagstone)",
+      "moment": "after",
+      "hero": true,
+      "lcp_ok": true,
+      "composition": "Flagstone em 1º plano forte, LEDs azuis na piscina, mata escura no topo (~25%): texto claro no topo, sempre com placa.",
+      "alt": "Flagstone-pattern stamped concrete deck around a rectangular pool lit by blue lights, woods behind",
+      "dominant_color": "#303334",
+      "focal_point": {
+        "x": 50,
+        "y": 58,
+        "object_position": "50% 58%"
+      },
+      "processing": [
+        "bordas uniformes removidas (l,t,r,b = (0, 0, 0, 2))"
+      ],
+      "notes": "",
+      "variants": [
+        {
+          "w": 480,
+          "h": 353,
+          "jpg": "pool-deck-stamped-06-480.jpg",
+          "webp": "pool-deck-stamped-06-480.webp",
+          "avif": "pool-deck-stamped-06-480.avif",
+          "bytes": {
+            "jpg": 46924,
+            "webp": 38604,
+            "avif": 24690
+          }
+        },
+        {
+          "w": 800,
+          "h": 588,
+          "jpg": "pool-deck-stamped-06-800.jpg",
+          "webp": "pool-deck-stamped-06-800.webp",
+          "avif": "pool-deck-stamped-06-800.avif",
+          "bytes": {
+            "jpg": 119832,
+            "webp": 94746,
+            "avif": 60596
+          }
+        },
+        {
+          "w": 1200,
+          "h": 883,
+          "jpg": "pool-deck-stamped-06-1200.jpg",
+          "webp": "pool-deck-stamped-06-1200.webp",
+          "avif": "pool-deck-stamped-06-1200.avif",
+          "bytes": {
+            "jpg": 237252,
+            "webp": 169278,
+            "avif": 114327
+          }
+        },
+        {
+          "w": 1320,
+          "h": 971,
+          "jpg": "pool-deck-stamped-06-1320.jpg",
+          "webp": "pool-deck-stamped-06-1320.webp",
+          "avif": "pool-deck-stamped-06-1320.avif",
+          "bytes": {
+            "jpg": 278911,
+            "webp": 198826,
+            "avif": 132719
+          }
+        }
+      ]
+    },
+    {
+      "id": "pool-deck-stamped-07",
+      "file": "pool-deck-stamped-07.jpg",
+      "source": "midias/raw/pool/1JZOT6_IMG_7248.PNG",
+      "width": 1320,
+      "height": 956,
+      "aspect": 1.381,
+      "orientation": "landscape",
+      "service": "pool-deck",
+      "finish": "stamped (seamless + dark coping)",
+      "moment": "after",
+      "hero": true,
+      "lcp_ok": true,
+      "composition": "Céu nublado ~25% superior centralizado; reflexo na água; casas atrás da cerca (sem números visíveis).",
+      "alt": "Rectangular pool with a dark stamped concrete coping and a light stamped deck, overcast sky reflected in the water",
+      "dominant_color": "#283628",
+      "focal_point": {
+        "x": 45,
+        "y": 62,
+        "object_position": "45% 62%"
+      },
+      "processing": [
+        "nenhum corte"
+      ],
+      "notes": "",
+      "variants": [
+        {
+          "w": 480,
+          "h": 348,
+          "jpg": "pool-deck-stamped-07-480.jpg",
+          "webp": "pool-deck-stamped-07-480.webp",
+          "avif": "pool-deck-stamped-07-480.avif",
+          "bytes": {
+            "jpg": 40179,
+            "webp": 28888,
+            "avif": 19396
+          }
+        },
+        {
+          "w": 800,
+          "h": 579,
+          "jpg": "pool-deck-stamped-07-800.jpg",
+          "webp": "pool-deck-stamped-07-800.webp",
+          "avif": "pool-deck-stamped-07-800.avif",
+          "bytes": {
+            "jpg": 105780,
+            "webp": 76774,
+            "avif": 50105
+          }
+        },
+        {
+          "w": 1200,
+          "h": 869,
+          "jpg": "pool-deck-stamped-07-1200.jpg",
+          "webp": "pool-deck-stamped-07-1200.webp",
+          "avif": "pool-deck-stamped-07-1200.avif",
+          "bytes": {
+            "jpg": 222175,
+            "webp": 158202,
+            "avif": 103633
+          }
+        },
+        {
+          "w": 1320,
+          "h": 956,
+          "jpg": "pool-deck-stamped-07-1320.jpg",
+          "webp": "pool-deck-stamped-07-1320.webp",
+          "avif": "pool-deck-stamped-07-1320.avif",
+          "bytes": {
+            "jpg": 270732,
+            "webp": 193832,
+            "avif": 125987
+          }
+        }
+      ]
+    },
+    {
+      "id": "pool-deck-stamped-08",
+      "file": "pool-deck-stamped-08.jpg",
+      "source": "midias/raw/pool/1L7rFR_IMG_7265.PNG",
+      "width": 1320,
+      "height": 947,
+      "aspect": 1.394,
+      "orientation": "landscape",
+      "service": "pool-deck",
+      "finish": "stamped (ashlar slate, tan + charcoal border)",
+      "moment": "after",
+      "hero": false,
+      "lcp_ok": false,
+      "composition": "Diagonal forte, jatos d'água; casa com deck ao fundo e um carro estacionado distante (placa ilegível).",
+      "alt": "Tan ashlar-pattern stamped concrete pool deck with a charcoal border and deck jets",
+      "dominant_color": "#404335",
+      "focal_point": {
+        "x": 55,
+        "y": 48,
+        "object_position": "55% 48%"
+      },
+      "processing": [
+        "nenhum corte"
+      ],
+      "notes": "",
+      "variants": [
+        {
+          "w": 480,
+          "h": 344,
+          "jpg": "pool-deck-stamped-08-480.jpg",
+          "webp": "pool-deck-stamped-08-480.webp",
+          "avif": "pool-deck-stamped-08-480.avif",
+          "bytes": {
+            "jpg": 48105,
+            "webp": 40244,
+            "avif": 24249
+          }
+        },
+        {
+          "w": 800,
+          "h": 574,
+          "jpg": "pool-deck-stamped-08-800.jpg",
+          "webp": "pool-deck-stamped-08-800.webp",
+          "avif": "pool-deck-stamped-08-800.avif",
+          "bytes": {
+            "jpg": 131048,
+            "webp": 110154,
+            "avif": 65315
+          }
+        },
+        {
+          "w": 1200,
+          "h": 861,
+          "jpg": "pool-deck-stamped-08-1200.jpg",
+          "webp": "pool-deck-stamped-08-1200.webp",
+          "avif": "pool-deck-stamped-08-1200.avif",
+          "bytes": {
+            "jpg": 283369,
+            "webp": 232672,
+            "avif": 140945
+          }
+        },
+        {
+          "w": 1320,
+          "h": 947,
+          "jpg": "pool-deck-stamped-08-1320.jpg",
+          "webp": "pool-deck-stamped-08-1320.webp",
+          "avif": "pool-deck-stamped-08-1320.avif",
+          "bytes": {
+            "jpg": 349092,
+            "webp": 291744,
+            "avif": 174480
+          }
+        }
+      ]
+    },
+    {
+      "id": "pool-deck-stamped-09",
+      "file": "pool-deck-stamped-09.jpg",
+      "source": "midias/raw/pool/1gJ6UB_IMG_2511.PNG",
+      "width": 1320,
+      "height": 1358,
+      "aspect": 0.972,
+      "orientation": "square",
+      "service": "pool-deck",
+      "finish": "stamped (large ashlar, gray)",
+      "moment": "after",
+      "hero": false,
+      "lcp_ok": false,
+      "composition": "Céu azul à direita superior; casa à esquerda; textura ashlar grande em 1º plano; ralo linear visível.",
+      "alt": "Large gray ashlar-pattern stamped concrete deck beside a rectangular pool and a stone wall",
+      "dominant_color": "#2B353A",
+      "focal_point": {
+        "x": 55,
+        "y": 60,
+        "object_position": "55% 60%"
+      },
+      "processing": [
+        "nenhum corte"
+      ],
+      "notes": "original da preview PRV IMG_2736 (o PRV era print do iPhone; usado o arquivo limpo IMG_2511)",
+      "variants": [
+        {
+          "w": 480,
+          "h": 494,
+          "jpg": "pool-deck-stamped-09-480.jpg",
+          "webp": "pool-deck-stamped-09-480.webp",
+          "avif": "pool-deck-stamped-09-480.avif",
+          "bytes": {
+            "jpg": 60870,
+            "webp": 47190,
+            "avif": 29641
+          }
+        },
+        {
+          "w": 800,
+          "h": 823,
+          "jpg": "pool-deck-stamped-09-800.jpg",
+          "webp": "pool-deck-stamped-09-800.webp",
+          "avif": "pool-deck-stamped-09-800.avif",
+          "bytes": {
+            "jpg": 160359,
+            "webp": 124464,
+            "avif": 76009
+          }
+        },
+        {
+          "w": 1200,
+          "h": 1235,
+          "jpg": "pool-deck-stamped-09-1200.jpg",
+          "webp": "pool-deck-stamped-09-1200.webp",
+          "avif": "pool-deck-stamped-09-1200.avif",
+          "bytes": {
+            "jpg": 334249,
+            "webp": 249052,
+            "avif": 156425
+          }
+        },
+        {
+          "w": 1320,
+          "h": 1358,
+          "jpg": "pool-deck-stamped-09-1320.jpg",
+          "webp": "pool-deck-stamped-09-1320.webp",
+          "avif": "pool-deck-stamped-09-1320.avif",
+          "bytes": {
+            "jpg": 393584,
+            "webp": 298868,
+            "avif": 189462
+          }
+        }
+      ]
+    },
+    {
+      "id": "pool-deck-stamped-10",
+      "file": "pool-deck-stamped-10.jpg",
+      "source": "midias/raw/pool/1oXykl_IMG_7262.PNG",
+      "width": 1320,
+      "height": 1305,
+      "aspect": 1.011,
+      "orientation": "square",
+      "service": "pool-deck",
+      "finish": "stamped (ashlar, tan + gray border)",
+      "moment": "after",
+      "hero": false,
+      "lcp_ok": false,
+      "composition": "Cena 'vida real': móveis em 1º plano, cabana ao fundo, céu à direita superior.",
+      "alt": "Tan ashlar-pattern stamped concrete deck with a gray pool border, patio furniture and a pool cabana",
+      "dominant_color": "#23281E",
+      "focal_point": {
+        "x": 50,
+        "y": 50,
+        "object_position": "50% 50%"
+      },
+      "processing": [
+        "nenhum corte"
+      ],
+      "notes": "",
+      "variants": [
+        {
+          "w": 480,
+          "h": 475,
+          "jpg": "pool-deck-stamped-10-480.jpg",
+          "webp": "pool-deck-stamped-10-480.webp",
+          "avif": "pool-deck-stamped-10-480.avif",
+          "bytes": {
+            "jpg": 70587,
+            "webp": 60092,
+            "avif": 33913
+          }
+        },
+        {
+          "w": 800,
+          "h": 791,
+          "jpg": "pool-deck-stamped-10-800.jpg",
+          "webp": "pool-deck-stamped-10-800.webp",
+          "avif": "pool-deck-stamped-10-800.avif",
+          "bytes": {
+            "jpg": 192267,
+            "webp": 165160,
+            "avif": 93412
+          }
+        },
+        {
+          "w": 1200,
+          "h": 1186,
+          "jpg": "pool-deck-stamped-10-1200.jpg",
+          "webp": "pool-deck-stamped-10-1200.webp",
+          "avif": "pool-deck-stamped-10-1200.avif",
+          "bytes": {
+            "jpg": 410933,
+            "webp": 339060,
+            "avif": 200078
+          }
+        },
+        {
+          "w": 1320,
+          "h": 1305,
+          "jpg": "pool-deck-stamped-10-1320.jpg",
+          "webp": "pool-deck-stamped-10-1320.webp",
+          "avif": "pool-deck-stamped-10-1320.avif",
+          "bytes": {
+            "jpg": 496778,
+            "webp": 412360,
+            "avif": 245184
+          }
+        }
+      ]
+    },
+    {
+      "id": "pool-deck-stamped-11",
+      "file": "pool-deck-stamped-11.jpg",
+      "source": "midias/raw/pool/1b39WX_IMG_2507.PNG",
+      "width": 1320,
+      "height": 1147,
+      "aspect": 1.151,
+      "orientation": "landscape",
+      "service": "pool-deck",
+      "finish": "stamped (ashlar, gray)",
+      "moment": "after",
+      "hero": false,
+      "lcp_ok": false,
+      "composition": "Grande área de textura ashlar ocupando 2/3 inferiores; mata no topo, sem céu.",
+      "alt": "Wide gray ashlar-pattern stamped concrete deck around a free-form pool on a wooded lot",
+      "dominant_color": "#444C39",
+      "focal_point": {
+        "x": 50,
+        "y": 40,
+        "object_position": "50% 40%"
+      },
+      "processing": [
+        "nenhum corte"
+      ],
+      "notes": "",
+      "variants": [
+        {
+          "w": 480,
+          "h": 417,
+          "jpg": "pool-deck-stamped-11-480.jpg",
+          "webp": "pool-deck-stamped-11-480.webp",
+          "avif": "pool-deck-stamped-11-480.avif",
+          "bytes": {
+            "jpg": 60368,
+            "webp": 51402,
+            "avif": 31385
+          }
+        },
+        {
+          "w": 800,
+          "h": 695,
+          "jpg": "pool-deck-stamped-11-800.jpg",
+          "webp": "pool-deck-stamped-11-800.webp",
+          "avif": "pool-deck-stamped-11-800.avif",
+          "bytes": {
+            "jpg": 168190,
+            "webp": 144734,
+            "avif": 86254
+          }
+        },
+        {
+          "w": 1200,
+          "h": 1043,
+          "jpg": "pool-deck-stamped-11-1200.jpg",
+          "webp": "pool-deck-stamped-11-1200.webp",
+          "avif": "pool-deck-stamped-11-1200.avif",
+          "bytes": {
+            "jpg": 359596,
+            "webp": 302612,
+            "avif": 179874
+          }
+        },
+        {
+          "w": 1320,
+          "h": 1147,
+          "jpg": "pool-deck-stamped-11-1320.jpg",
+          "webp": "pool-deck-stamped-11-1320.webp",
+          "avif": "pool-deck-stamped-11-1320.avif",
+          "bytes": {
+            "jpg": 367800,
+            "webp": 351992,
+            "avif": 226478
+          }
+        }
+      ]
+    },
+    {
+      "id": "pool-deck-stamped-12",
+      "file": "pool-deck-stamped-12.jpg",
+      "source": "midias/raw/pool/1f9S5n_IMG_7277.PNG",
+      "width": 1320,
+      "height": 971,
+      "aspect": 1.359,
+      "orientation": "landscape",
+      "service": "pool-deck",
+      "finish": "stamped (seamless)",
+      "moment": "after",
+      "hero": false,
+      "lcp_ok": false,
+      "composition": "Paisagismo (seixos e flores) domina a metade inferior; piscina no terço superior.",
+      "alt": "Light gray stamped concrete pool deck framed by river rock and flowering plants",
+      "dominant_color": "#6E6F5B",
+      "focal_point": {
+        "x": 50,
+        "y": 35,
+        "object_position": "50% 35%"
+      },
+      "processing": [
+        "nenhum corte"
+      ],
+      "notes": "",
+      "variants": [
+        {
+          "w": 480,
+          "h": 353,
+          "jpg": "pool-deck-stamped-12-480.jpg",
+          "webp": "pool-deck-stamped-12-480.webp",
+          "avif": "pool-deck-stamped-12-480.avif",
+          "bytes": {
+            "jpg": 63447,
+            "webp": 57128,
+            "avif": 32404
+          }
+        },
+        {
+          "w": 800,
+          "h": 588,
+          "jpg": "pool-deck-stamped-12-800.jpg",
+          "webp": "pool-deck-stamped-12-800.webp",
+          "avif": "pool-deck-stamped-12-800.avif",
+          "bytes": {
+            "jpg": 167421,
+            "webp": 149452,
+            "avif": 85024
+          }
+        },
+        {
+          "w": 1200,
+          "h": 883,
+          "jpg": "pool-deck-stamped-12-1200.jpg",
+          "webp": "pool-deck-stamped-12-1200.webp",
+          "avif": "pool-deck-stamped-12-1200.avif",
+          "bytes": {
+            "jpg": 350776,
+            "webp": 300136,
+            "avif": 171032
+          }
+        },
+        {
+          "w": 1320,
+          "h": 971,
+          "jpg": "pool-deck-stamped-12-1320.jpg",
+          "webp": "pool-deck-stamped-12-1320.webp",
+          "avif": "pool-deck-stamped-12-1320.avif",
+          "bytes": {
+            "jpg": 421878,
+            "webp": 368368,
+            "avif": 207857
+          }
+        }
+      ]
+    },
+    {
+      "id": "pool-deck-stamped-13",
+      "file": "pool-deck-stamped-13.jpg",
+      "source": "midias/raw/pool/1SpcOU_IMG_7705.PNG",
+      "width": 1290,
+      "height": 1140,
+      "aspect": 1.132,
+      "orientation": "landscape",
+      "service": "pool-deck",
+      "finish": "stamped (seamless, tan)",
+      "moment": "after",
+      "hero": false,
+      "lcp_ok": false,
+      "composition": "Recorte da área de foto de um print do iPhone (barras pretas removidas). Deck tan com deck de madeira à direita; campo aberto.",
+      "alt": "Tan stamped concrete deck around a free-form pool next to a raised wood deck",
+      "dominant_color": "#977B61",
+      "focal_point": {
+        "x": 55,
+        "y": 45,
+        "object_position": "55% 45%"
+      },
+      "processing": [
+        "recorte da área da foto no print (y 828–1968)"
+      ],
+      "notes": "preview do cliente (PRV IMG_7705); arquivo bruto era print de tela",
+      "variants": [
+        {
+          "w": 480,
+          "h": 424,
+          "jpg": "pool-deck-stamped-13-480.jpg",
+          "webp": "pool-deck-stamped-13-480.webp",
+          "avif": "pool-deck-stamped-13-480.avif",
+          "bytes": {
+            "jpg": 53969,
+            "webp": 44224,
+            "avif": 27151
+          }
+        },
+        {
+          "w": 800,
+          "h": 707,
+          "jpg": "pool-deck-stamped-13-800.jpg",
+          "webp": "pool-deck-stamped-13-800.webp",
+          "avif": "pool-deck-stamped-13-800.avif",
+          "bytes": {
+            "jpg": 142090,
+            "webp": 112770,
+            "avif": 70375
+          }
+        },
+        {
+          "w": 1200,
+          "h": 1060,
+          "jpg": "pool-deck-stamped-13-1200.jpg",
+          "webp": "pool-deck-stamped-13-1200.webp",
+          "avif": "pool-deck-stamped-13-1200.avif",
+          "bytes": {
+            "jpg": 284171,
+            "webp": 204166,
+            "avif": 136208
+          }
+        },
+        {
+          "w": 1290,
+          "h": 1140,
+          "jpg": "pool-deck-stamped-13-1290.jpg",
+          "webp": "pool-deck-stamped-13-1290.webp",
+          "avif": "pool-deck-stamped-13-1290.avif",
+          "bytes": {
+            "jpg": 321885,
+            "webp": 230020,
+            "avif": 152674
+          }
+        }
+      ]
+    },
+    {
+      "id": "pool-deck-broom-01",
+      "file": "pool-deck-broom-01.jpg",
+      "source": "midias/raw/pool/12zELN_IMG_2505.PNG",
+      "width": 1320,
+      "height": 808,
+      "aspect": 1.634,
+      "orientation": "landscape",
+      "service": "pool-deck",
+      "finish": "broom (light) + stamped charcoal border (two-tone)",
+      "moment": "after",
+      "hero": false,
+      "lcp_ok": false,
+      "composition": "Panorâmica baixa; piscina e spa no terço superior; campo de concreto liso/vassourado com juntas na metade inferior.",
+      "alt": "Two-tone pool deck: light gray broom-finish concrete with a charcoal stamped border around a free-form pool and spa",
+      "dominant_color": "#999EA8",
+      "focal_point": {
+        "x": 55,
+        "y": 25,
+        "object_position": "55% 25%"
+      },
+      "processing": [
+        "nenhum corte"
+      ],
+      "notes": "acabamento do campo: broom leve ou smooth — confirmar com o cliente",
+      "variants": [
+        {
+          "w": 480,
+          "h": 294,
+          "jpg": "pool-deck-broom-01-480.jpg",
+          "webp": "pool-deck-broom-01-480.webp",
+          "avif": "pool-deck-broom-01-480.avif",
+          "bytes": {
+            "jpg": 18284,
+            "webp": 8436,
+            "avif": 7749
+          }
+        },
+        {
+          "w": 800,
+          "h": 490,
+          "jpg": "pool-deck-broom-01-800.jpg",
+          "webp": "pool-deck-broom-01-800.webp",
+          "avif": "pool-deck-broom-01-800.avif",
+          "bytes": {
+            "jpg": 45251,
+            "webp": 22336,
+            "avif": 19217
+          }
+        },
+        {
+          "w": 1200,
+          "h": 735,
+          "jpg": "pool-deck-broom-01-1200.jpg",
+          "webp": "pool-deck-broom-01-1200.webp",
+          "avif": "pool-deck-broom-01-1200.avif",
+          "bytes": {
+            "jpg": 92413,
+            "webp": 46088,
+            "avif": 39749
+          }
+        },
+        {
+          "w": 1320,
+          "h": 808,
+          "jpg": "pool-deck-broom-01-1320.jpg",
+          "webp": "pool-deck-broom-01-1320.webp",
+          "avif": "pool-deck-broom-01-1320.avif",
+          "bytes": {
+            "jpg": 109948,
+            "webp": 56612,
+            "avif": 48659
+          }
+        }
+      ]
+    },
+    {
+      "id": "pool-deck-broom-02",
+      "file": "pool-deck-broom-02.jpg",
+      "source": "midias/raw/pool/1_GMdq_IMG_7703.PNG",
+      "width": 1290,
+      "height": 941,
+      "aspect": 1.371,
+      "orientation": "landscape",
+      "service": "pool-deck",
+      "finish": "broom (plain, control joints)",
+      "moment": "after (recém-concluído, base de cascalho exposta)",
+      "hero": false,
+      "lcp_ok": false,
+      "composition": "Recorte da área de foto de um print do iPhone. Deck simples em volta de piscina free-form, céu ~25% superior.",
+      "alt": "Plain concrete deck with control joints around a free-form pool, gravel base still exposed",
+      "dominant_color": "#9D9B98",
+      "focal_point": {
+        "x": 50,
+        "y": 55,
+        "object_position": "50% 55%"
+      },
+      "processing": [
+        "recorte da área da foto no print (y 927–1868)"
+      ],
+      "notes": "preview do cliente (PRV IMG_7703); arquivo bruto era print de tela",
+      "variants": [
+        {
+          "w": 480,
+          "h": 350,
+          "jpg": "pool-deck-broom-02-480.jpg",
+          "webp": "pool-deck-broom-02-480.webp",
+          "avif": "pool-deck-broom-02-480.avif",
+          "bytes": {
+            "jpg": 34319,
+            "webp": 23192,
+            "avif": 16326
+          }
+        },
+        {
+          "w": 800,
+          "h": 584,
+          "jpg": "pool-deck-broom-02-800.jpg",
+          "webp": "pool-deck-broom-02-800.webp",
+          "avif": "pool-deck-broom-02-800.avif",
+          "bytes": {
+            "jpg": 81917,
+            "webp": 53516,
+            "avif": 37318
+          }
+        },
+        {
+          "w": 1200,
+          "h": 875,
+          "jpg": "pool-deck-broom-02-1200.jpg",
+          "webp": "pool-deck-broom-02-1200.webp",
+          "avif": "pool-deck-broom-02-1200.avif",
+          "bytes": {
+            "jpg": 155186,
+            "webp": 90918,
+            "avif": 67420
+          }
+        },
+        {
+          "w": 1290,
+          "h": 941,
+          "jpg": "pool-deck-broom-02-1290.jpg",
+          "webp": "pool-deck-broom-02-1290.webp",
+          "avif": "pool-deck-broom-02-1290.avif",
+          "bytes": {
+            "jpg": 174166,
+            "webp": 101266,
+            "avif": 74538
+          }
+        }
+      ]
+    },
+    {
+      "id": "pool-deck-during-01",
+      "file": "pool-deck-during-01.jpg",
+      "source": "midias/raw/pool/1vDaNS_IMG_7702.PNG",
+      "width": 1290,
+      "height": 1695,
+      "aspect": 0.761,
+      "orientation": "portrait",
+      "service": "pool-deck",
+      "finish": "n/a (formas antes da concretagem)",
+      "moment": "during",
+      "hero": false,
+      "lcp_ok": false,
+      "composition": "Vista aérea/zenital das formas em volta da piscina; sem pessoas.",
+      "alt": "Overhead view of forms set around a pool before the deck pour",
+      "dominant_color": "#5E5E54",
+      "focal_point": {
+        "x": 50,
+        "y": 50,
+        "object_position": "50% 50%"
+      },
+      "processing": [
+        "nenhum corte"
+      ],
+      "notes": "preview do cliente (PRV IMG_7702)",
+      "variants": [
+        {
+          "w": 480,
+          "h": 631,
+          "jpg": "pool-deck-during-01-480.jpg",
+          "webp": "pool-deck-during-01-480.webp",
+          "avif": "pool-deck-during-01-480.avif",
+          "bytes": {
+            "jpg": 86673,
+            "webp": 66604,
+            "avif": 40441
+          }
+        },
+        {
+          "w": 800,
+          "h": 1051,
+          "jpg": "pool-deck-during-01-800.jpg",
+          "webp": "pool-deck-during-01-800.webp",
+          "avif": "pool-deck-during-01-800.avif",
+          "bytes": {
+            "jpg": 234026,
+            "webp": 180594,
+            "avif": 110000
+          }
+        },
+        {
+          "w": 1200,
+          "h": 1577,
+          "jpg": "pool-deck-during-01-1200.jpg",
+          "webp": "pool-deck-during-01-1200.webp",
+          "avif": "pool-deck-during-01-1200.avif",
+          "bytes": {
+            "jpg": 494148,
+            "webp": 382430,
+            "avif": 233639
+          }
+        },
+        {
+          "w": 1290,
+          "h": 1695,
+          "jpg": "pool-deck-during-01-1290.jpg",
+          "webp": "pool-deck-during-01-1290.webp",
+          "avif": "pool-deck-during-01-1290.avif",
+          "bytes": {
+            "jpg": 570399,
+            "webp": 440478,
+            "avif": 269148
+          }
+        }
+      ]
+    },
+    {
+      "id": "patio-01",
+      "file": "patio-01.jpg",
+      "source": "midias/raw/patio/1DuZuZ_IMG_7302.PNG",
+      "width": 1320,
+      "height": 869,
+      "aspect": 1.519,
+      "orientation": "landscape",
+      "service": "patio",
+      "finish": "stamped (ashlar + fire-pit circle with border)",
+      "moment": "after",
+      "hero": true,
+      "lcp_ok": true,
+      "composition": "Horizontal; patio curvo + círculo da fogueira na metade inferior; cerca de madeira e árvores floridas no topo: texto à direita superior em placa.",
+      "alt": "Gray ashlar-pattern stamped concrete patio flowing into a circular fire-pit pad on a green lawn",
+      "dominant_color": "#403E32",
+      "focal_point": {
+        "x": 55,
+        "y": 62,
+        "object_position": "55% 62%"
+      },
+      "processing": [
+        "nenhum corte"
+      ],
+      "notes": "",
+      "variants": [
+        {
+          "w": 480,
+          "h": 316,
+          "jpg": "patio-01-480.jpg",
+          "webp": "patio-01-480.webp",
+          "avif": "patio-01-480.avif",
+          "bytes": {
+            "jpg": 49324,
+            "webp": 43006,
+            "avif": 25148
+          }
+        },
+        {
+          "w": 800,
+          "h": 527,
+          "jpg": "patio-01-800.jpg",
+          "webp": "patio-01-800.webp",
+          "avif": "patio-01-800.avif",
+          "bytes": {
+            "jpg": 127186,
+            "webp": 108568,
+            "avif": 63177
+          }
+        },
+        {
+          "w": 1200,
+          "h": 790,
+          "jpg": "patio-01-1200.jpg",
+          "webp": "patio-01-1200.webp",
+          "avif": "patio-01-1200.avif",
+          "bytes": {
+            "jpg": 250085,
+            "webp": 196722,
+            "avif": 119023
+          }
+        },
+        {
+          "w": 1320,
+          "h": 869,
+          "jpg": "patio-01-1320.jpg",
+          "webp": "patio-01-1320.webp",
+          "avif": "patio-01-1320.avif",
+          "bytes": {
+            "jpg": 291491,
+            "webp": 225410,
+            "avif": 136526
+          }
+        }
+      ]
+    },
+    {
+      "id": "patio-02",
+      "file": "patio-02.jpg",
+      "source": "midias/raw/patio/1BSn0q_IMG_2258.PNG",
+      "width": 1320,
+      "height": 1422,
+      "aspect": 0.928,
+      "orientation": "square",
+      "service": "patio",
+      "finish": "stamped (ashlar + charcoal border)",
+      "moment": "after",
+      "hero": false,
+      "lcp_ok": false,
+      "composition": "Céu à esquerda superior; casa nova à direita; fire-pit redondo ao fundo.",
+      "alt": "Stamped concrete patio with a charcoal border and a round fire-pit pad behind a new home",
+      "dominant_color": "#222226",
+      "focal_point": {
+        "x": 45,
+        "y": 55,
+        "object_position": "45% 55%"
+      },
+      "processing": [
+        "nenhum corte"
+      ],
+      "notes": "",
+      "variants": [
+        {
+          "w": 480,
+          "h": 517,
+          "jpg": "patio-02-480.jpg",
+          "webp": "patio-02-480.webp",
+          "avif": "patio-02-480.avif",
+          "bytes": {
+            "jpg": 63960,
+            "webp": 52054,
+            "avif": 30035
+          }
+        },
+        {
+          "w": 800,
+          "h": 862,
+          "jpg": "patio-02-800.jpg",
+          "webp": "patio-02-800.webp",
+          "avif": "patio-02-800.avif",
+          "bytes": {
+            "jpg": 178349,
+            "webp": 143476,
+            "avif": 82304
+          }
+        },
+        {
+          "w": 1200,
+          "h": 1293,
+          "jpg": "patio-02-1200.jpg",
+          "webp": "patio-02-1200.webp",
+          "avif": "patio-02-1200.avif",
+          "bytes": {
+            "jpg": 367811,
+            "webp": 283840,
+            "avif": 165010
+          }
+        },
+        {
+          "w": 1320,
+          "h": 1422,
+          "jpg": "patio-02-1320.jpg",
+          "webp": "patio-02-1320.webp",
+          "avif": "patio-02-1320.avif",
+          "bytes": {
+            "jpg": 421978,
+            "webp": 331378,
+            "avif": 196626
+          }
+        }
+      ]
+    },
+    {
+      "id": "patio-03",
+      "file": "patio-03.jpg",
+      "source": "midias/raw/patio/1Bc6ej_IMG_1063.PNG",
+      "width": 1290,
+      "height": 1463,
+      "aspect": 0.882,
+      "orientation": "portrait",
+      "service": "patio",
+      "finish": "stamped (ashlar, light gray)",
+      "moment": "after",
+      "hero": false,
+      "lcp_ok": false,
+      "composition": "Grande-angular: patio em triângulo apontando para baixo; céu à esquerda superior.",
+      "alt": "Light gray ashlar-pattern stamped concrete patio behind a stucco home",
+      "dominant_color": "#282322",
+      "focal_point": {
+        "x": 55,
+        "y": 55,
+        "object_position": "55% 55%"
+      },
+      "processing": [
+        "bordas uniformes removidas (l,t,r,b = (0, 0, 0, 7))"
+      ],
+      "notes": "preview do cliente (PRV IMG_1063)",
+      "variants": [
+        {
+          "w": 480,
+          "h": 544,
+          "jpg": "patio-03-480.jpg",
+          "webp": "patio-03-480.webp",
+          "avif": "patio-03-480.avif",
+          "bytes": {
+            "jpg": 68371,
+            "webp": 53926,
+            "avif": 33871
+          }
+        },
+        {
+          "w": 800,
+          "h": 907,
+          "jpg": "patio-03-800.jpg",
+          "webp": "patio-03-800.webp",
+          "avif": "patio-03-800.avif",
+          "bytes": {
+            "jpg": 187734,
+            "webp": 150246,
+            "avif": 93578
+          }
+        },
+        {
+          "w": 1200,
+          "h": 1361,
+          "jpg": "patio-03-1200.jpg",
+          "webp": "patio-03-1200.webp",
+          "avif": "patio-03-1200.avif",
+          "bytes": {
+            "jpg": 376558,
+            "webp": 290144,
+            "avif": 182519
+          }
+        },
+        {
+          "w": 1290,
+          "h": 1463,
+          "jpg": "patio-03-1290.jpg",
+          "webp": "patio-03-1290.webp",
+          "avif": "patio-03-1290.avif",
+          "bytes": {
+            "jpg": 422013,
+            "webp": 323004,
+            "avif": 205208
+          }
+        }
+      ]
+    },
+    {
+      "id": "patio-04",
+      "file": "patio-04.jpg",
+      "source": "midias/raw/patio/1RZAkd_IMG_2978.PNG",
+      "width": 1290,
+      "height": 1702,
+      "aspect": 0.758,
+      "orientation": "portrait",
+      "service": "patio",
+      "finish": "stamped (ashlar + border)",
+      "moment": "after",
+      "hero": false,
+      "lcp_ok": false,
+      "composition": "Vertical; patio na metade inferior; enrolador de mangueira no canto inferior direito.",
+      "alt": "Ashlar-pattern stamped concrete patio with a contrasting border along the side of a house",
+      "dominant_color": "#303128",
+      "focal_point": {
+        "x": 50,
+        "y": 58,
+        "object_position": "50% 58%"
+      },
+      "processing": [
+        "nenhum corte"
+      ],
+      "notes": "preview do cliente (PRV IMG_2978)",
+      "variants": [
+        {
+          "w": 480,
+          "h": 633,
+          "jpg": "patio-04-480.jpg",
+          "webp": "patio-04-480.webp",
+          "avif": "patio-04-480.avif",
+          "bytes": {
+            "jpg": 90669,
+            "webp": 75660,
+            "avif": 45075
+          }
+        },
+        {
+          "w": 800,
+          "h": 1056,
+          "jpg": "patio-04-800.jpg",
+          "webp": "patio-04-800.webp",
+          "avif": "patio-04-800.avif",
+          "bytes": {
+            "jpg": 214025,
+            "webp": 165002,
+            "avif": 101320
+          }
+        },
+        {
+          "w": 1200,
+          "h": 1583,
+          "jpg": "patio-04-1200.jpg",
+          "webp": "patio-04-1200.webp",
+          "avif": "patio-04-1200.avif",
+          "bytes": {
+            "jpg": 396576,
+            "webp": 270176,
+            "avif": 172440
+          }
+        },
+        {
+          "w": 1290,
+          "h": 1702,
+          "jpg": "patio-04-1290.jpg",
+          "webp": "patio-04-1290.webp",
+          "avif": "patio-04-1290.avif",
+          "bytes": {
+            "jpg": 442774,
+            "webp": 297754,
+            "avif": 190321
+          }
+        }
+      ]
+    },
+    {
+      "id": "patio-05",
+      "file": "patio-05.jpg",
+      "source": "midias/raw/patio/1WKey-_IMG_3903.PNG",
+      "width": 1320,
+      "height": 1364,
+      "aspect": 0.968,
+      "orientation": "square",
+      "service": "patio",
+      "finish": "stamped (flagstone + border)",
+      "moment": "after",
+      "hero": false,
+      "lcp_ok": false,
+      "composition": "Fire pit de tijolo e cadeiras Adirondack: cena de uso; sem céu.",
+      "alt": "Flagstone-pattern stamped concrete fire-pit patio with Adirondack chairs",
+      "dominant_color": "#2F312E",
+      "focal_point": {
+        "x": 45,
+        "y": 45,
+        "object_position": "45% 45%"
+      },
+      "processing": [
+        "nenhum corte"
+      ],
+      "notes": "",
+      "variants": [
+        {
+          "w": 480,
+          "h": 496,
+          "jpg": "patio-05-480.jpg",
+          "webp": "patio-05-480.webp",
+          "avif": "patio-05-480.avif",
+          "bytes": {
+            "jpg": 74056,
+            "webp": 62990,
+            "avif": 36482
+          }
+        },
+        {
+          "w": 800,
+          "h": 827,
+          "jpg": "patio-05-800.jpg",
+          "webp": "patio-05-800.webp",
+          "avif": "patio-05-800.avif",
+          "bytes": {
+            "jpg": 221268,
+            "webp": 193926,
+            "avif": 113560
+          }
+        },
+        {
+          "w": 1200,
+          "h": 1240,
+          "jpg": "patio-05-1200.jpg",
+          "webp": "patio-05-1200.webp",
+          "avif": "patio-05-1200.avif",
+          "bytes": {
+            "jpg": 491199,
+            "webp": 439422,
+            "avif": 251643
+          }
+        },
+        {
+          "w": 1320,
+          "h": 1364,
+          "jpg": "patio-05-1320.jpg",
+          "webp": "patio-05-1320.webp",
+          "avif": "patio-05-1320.avif",
+          "bytes": {
+            "jpg": 556063,
+            "webp": 528828,
+            "avif": 316157
+          }
+        }
+      ]
+    },
+    {
+      "id": "patio-06",
+      "file": "patio-06.jpg",
+      "source": "midias/raw/patio/1yFbhV_IMG_2257.PNG",
+      "width": 1320,
+      "height": 1403,
+      "aspect": 0.941,
+      "orientation": "square",
+      "service": "patio",
+      "finish": "stamped (ashlar, raised round fire-pit pad)",
+      "moment": "after",
+      "hero": false,
+      "lcp_ok": false,
+      "composition": "Céu de fim de tarde à direita superior; círculo elevado em 1º plano.",
+      "alt": "Raised round stamped concrete fire-pit pad connected to a rear patio",
+      "dominant_color": "#8C8E89",
+      "focal_point": {
+        "x": 40,
+        "y": 65,
+        "object_position": "40% 65%"
+      },
+      "processing": [
+        "nenhum corte"
+      ],
+      "notes": "",
+      "variants": [
+        {
+          "w": 480,
+          "h": 510,
+          "jpg": "patio-06-480.jpg",
+          "webp": "patio-06-480.webp",
+          "avif": "patio-06-480.avif",
+          "bytes": {
+            "jpg": 71359,
+            "webp": 58500,
+            "avif": 32492
+          }
+        },
+        {
+          "w": 800,
+          "h": 850,
+          "jpg": "patio-06-800.jpg",
+          "webp": "patio-06-800.webp",
+          "avif": "patio-06-800.avif",
+          "bytes": {
+            "jpg": 205560,
+            "webp": 171666,
+            "avif": 93250
+          }
+        },
+        {
+          "w": 1200,
+          "h": 1275,
+          "jpg": "patio-06-1200.jpg",
+          "webp": "patio-06-1200.webp",
+          "avif": "patio-06-1200.avif",
+          "bytes": {
+            "jpg": 433276,
+            "webp": 355734,
+            "avif": 192939
+          }
+        },
+        {
+          "w": 1320,
+          "h": 1403,
+          "jpg": "patio-06-1320.jpg",
+          "webp": "patio-06-1320.webp",
+          "avif": "patio-06-1320.avif",
+          "bytes": {
+            "jpg": 506140,
+            "webp": 422882,
+            "avif": 230802
+          }
+        }
+      ]
+    },
+    {
+      "id": "patio-07",
+      "file": "patio-07.jpg",
+      "source": "midias/raw/patio/1yEnLa_IMG_1062.PNG",
+      "width": 1290,
+      "height": 1446,
+      "aspect": 0.892,
+      "orientation": "portrait",
+      "service": "patio",
+      "finish": "stamped (ashlar)",
+      "moment": "after",
+      "hero": false,
+      "lcp_ok": false,
+      "composition": "Ângulo baixo, céu nublado dramático ~45% superior (bom para texto); mureta de blocos à esquerda.",
+      "alt": "Long ashlar-pattern stamped concrete patio along a house, with a block seat wall and a fire pit",
+      "dominant_color": "#2A2825",
+      "focal_point": {
+        "x": 45,
+        "y": 70,
+        "object_position": "45% 70%"
+      },
+      "processing": [
+        "nenhum corte"
+      ],
+      "notes": "",
+      "variants": [
+        {
+          "w": 480,
+          "h": 538,
+          "jpg": "patio-07-480.jpg",
+          "webp": "patio-07-480.webp",
+          "avif": "patio-07-480.avif",
+          "bytes": {
+            "jpg": 58220,
+            "webp": 42908,
+            "avif": 26092
+          }
+        },
+        {
+          "w": 800,
+          "h": 897,
+          "jpg": "patio-07-800.jpg",
+          "webp": "patio-07-800.webp",
+          "avif": "patio-07-800.avif",
+          "bytes": {
+            "jpg": 147275,
+            "webp": 101928,
+            "avif": 64505
+          }
+        },
+        {
+          "w": 1200,
+          "h": 1345,
+          "jpg": "patio-07-1200.jpg",
+          "webp": "patio-07-1200.webp",
+          "avif": "patio-07-1200.avif",
+          "bytes": {
+            "jpg": 279856,
+            "webp": 177072,
+            "avif": 116816
+          }
+        },
+        {
+          "w": 1290,
+          "h": 1446,
+          "jpg": "patio-07-1290.jpg",
+          "webp": "patio-07-1290.webp",
+          "avif": "patio-07-1290.avif",
+          "bytes": {
+            "jpg": 316402,
+            "webp": 196316,
+            "avif": 129089
+          }
+        }
+      ]
+    },
+    {
+      "id": "patio-08",
+      "file": "patio-08.jpg",
+      "source": "midias/raw/patio/1uRNzd_IMG_4337.PNG",
+      "width": 1320,
+      "height": 1587,
+      "aspect": 0.832,
+      "orientation": "portrait",
+      "service": "patio",
+      "finish": "stamped (light tan + dark brown border)",
+      "moment": "after",
+      "hero": false,
+      "lcp_ok": false,
+      "composition": "Céu com nuvens ~40% superior; patio claro com borda escura na metade inferior.",
+      "alt": "Light tan stamped concrete patio with a dark brown border behind a two-story home",
+      "dominant_color": "#2C2B29",
+      "focal_point": {
+        "x": 40,
+        "y": 75,
+        "object_position": "40% 75%"
+      },
+      "processing": [
+        "nenhum corte"
+      ],
+      "notes": "",
+      "variants": [
+        {
+          "w": 480,
+          "h": 577,
+          "jpg": "patio-08-480.jpg",
+          "webp": "patio-08-480.webp",
+          "avif": "patio-08-480.avif",
+          "bytes": {
+            "jpg": 70947,
+            "webp": 55184,
+            "avif": 31465
+          }
+        },
+        {
+          "w": 800,
+          "h": 962,
+          "jpg": "patio-08-800.jpg",
+          "webp": "patio-08-800.webp",
+          "avif": "patio-08-800.avif",
+          "bytes": {
+            "jpg": 201492,
+            "webp": 160406,
+            "avif": 89670
+          }
+        },
+        {
+          "w": 1200,
+          "h": 1443,
+          "jpg": "patio-08-1200.jpg",
+          "webp": "patio-08-1200.webp",
+          "avif": "patio-08-1200.avif",
+          "bytes": {
+            "jpg": 435818,
+            "webp": 345824,
+            "avif": 193292
+          }
+        },
+        {
+          "w": 1320,
+          "h": 1587,
+          "jpg": "patio-08-1320.jpg",
+          "webp": "patio-08-1320.webp",
+          "avif": "patio-08-1320.avif",
+          "bytes": {
+            "jpg": 517804,
+            "webp": 421134,
+            "avif": 238074
+          }
+        }
+      ]
+    },
+    {
+      "id": "patio-09",
+      "file": "patio-09.jpg",
+      "source": "midias/raw/patio/1vseus_IMG_2250.PNG",
+      "width": 1320,
+      "height": 1509,
+      "aspect": 0.875,
+      "orientation": "portrait",
+      "service": "patio",
+      "finish": "stamped (ashlar, tan)",
+      "moment": "after",
+      "hero": false,
+      "lcp_ok": false,
+      "composition": "Pavilhão de madeira centralizado; gramado em obra no 1º plano.",
+      "alt": "Tan ashlar-pattern stamped concrete patio under a timber pavilion",
+      "dominant_color": "#2E2C28",
+      "focal_point": {
+        "x": 50,
+        "y": 50,
+        "object_position": "50% 50%"
+      },
+      "processing": [
+        "nenhum corte"
+      ],
+      "notes": "",
+      "variants": [
+        {
+          "w": 480,
+          "h": 549,
+          "jpg": "patio-09-480.jpg",
+          "webp": "patio-09-480.webp",
+          "avif": "patio-09-480.avif",
+          "bytes": {
+            "jpg": 77235,
+            "webp": 62160,
+            "avif": 38707
+          }
+        },
+        {
+          "w": 800,
+          "h": 915,
+          "jpg": "patio-09-800.jpg",
+          "webp": "patio-09-800.webp",
+          "avif": "patio-09-800.avif",
+          "bytes": {
+            "jpg": 221691,
+            "webp": 184522,
+            "avif": 113499
+          }
+        },
+        {
+          "w": 1200,
+          "h": 1372,
+          "jpg": "patio-09-1200.jpg",
+          "webp": "patio-09-1200.webp",
+          "avif": "patio-09-1200.avif",
+          "bytes": {
+            "jpg": 483571,
+            "webp": 401538,
+            "avif": 247414
+          }
+        },
+        {
+          "w": 1320,
+          "h": 1509,
+          "jpg": "patio-09-1320.jpg",
+          "webp": "patio-09-1320.webp",
+          "avif": "patio-09-1320.avif",
+          "bytes": {
+            "jpg": 580102,
+            "webp": 492508,
+            "avif": 303851
+          }
+        }
+      ]
+    },
+    {
+      "id": "patio-10",
+      "file": "patio-10.jpg",
+      "source": "midias/raw/patio/1fq8L4_IMG_2253.PNG",
+      "width": 1320,
+      "height": 1538,
+      "aspect": 0.858,
+      "orientation": "portrait",
+      "service": "patio",
+      "finish": "stamped (flagstone, gray)",
+      "moment": "after",
+      "hero": false,
+      "lcp_ok": false,
+      "composition": "Céu azul intenso à direita superior; pergolado preto; contraste alto.",
+      "alt": "Gray stamped concrete patio under a black metal pergola and a deep blue sky",
+      "dominant_color": "#2C2B29",
+      "focal_point": {
+        "x": 35,
+        "y": 70,
+        "object_position": "35% 70%"
+      },
+      "processing": [
+        "nenhum corte"
+      ],
+      "notes": "",
+      "variants": [
+        {
+          "w": 480,
+          "h": 559,
+          "jpg": "patio-10-480.jpg",
+          "webp": "patio-10-480.webp",
+          "avif": "patio-10-480.avif",
+          "bytes": {
+            "jpg": 64618,
+            "webp": 46924,
+            "avif": 27561
+          }
+        },
+        {
+          "w": 800,
+          "h": 932,
+          "jpg": "patio-10-800.jpg",
+          "webp": "patio-10-800.webp",
+          "avif": "patio-10-800.avif",
+          "bytes": {
+            "jpg": 171632,
+            "webp": 122520,
+            "avif": 72506
+          }
+        },
+        {
+          "w": 1200,
+          "h": 1398,
+          "jpg": "patio-10-1200.jpg",
+          "webp": "patio-10-1200.webp",
+          "avif": "patio-10-1200.avif",
+          "bytes": {
+            "jpg": 333094,
+            "webp": 225318,
+            "avif": 140758
+          }
+        },
+        {
+          "w": 1320,
+          "h": 1538,
+          "jpg": "patio-10-1320.jpg",
+          "webp": "patio-10-1320.webp",
+          "avif": "patio-10-1320.avif",
+          "bytes": {
+            "jpg": 398320,
+            "webp": 259964,
+            "avif": 161314
+          }
+        }
+      ]
+    },
+    {
+      "id": "patio-11",
+      "file": "patio-11.jpg",
+      "source": "midias/raw/patio/1ag9HL_IMG_2259.PNG",
+      "width": 1320,
+      "height": 1417,
+      "aspect": 0.932,
+      "orientation": "square",
+      "service": "patio",
+      "finish": "stamped (flagstone, tan + red-brown border)",
+      "moment": "after",
+      "hero": false,
+      "lcp_ok": false,
+      "composition": "Céu à esquerda superior; borda colorida forte em 1º plano.",
+      "alt": "Tan flagstone-pattern stamped concrete patio with a red-brown border",
+      "dominant_color": "#28251F",
+      "focal_point": {
+        "x": 55,
+        "y": 65,
+        "object_position": "55% 65%"
+      },
+      "processing": [
+        "nenhum corte"
+      ],
+      "notes": "",
+      "variants": [
+        {
+          "w": 480,
+          "h": 515,
+          "jpg": "patio-11-480.jpg",
+          "webp": "patio-11-480.webp",
+          "avif": "patio-11-480.avif",
+          "bytes": {
+            "jpg": 71968,
+            "webp": 58822,
+            "avif": 33622
+          }
+        },
+        {
+          "w": 800,
+          "h": 859,
+          "jpg": "patio-11-800.jpg",
+          "webp": "patio-11-800.webp",
+          "avif": "patio-11-800.avif",
+          "bytes": {
+            "jpg": 201838,
+            "webp": 164492,
+            "avif": 93271
+          }
+        },
+        {
+          "w": 1200,
+          "h": 1288,
+          "jpg": "patio-11-1200.jpg",
+          "webp": "patio-11-1200.webp",
+          "avif": "patio-11-1200.avif",
+          "bytes": {
+            "jpg": 418040,
+            "webp": 336006,
+            "avif": 190376
+          }
+        },
+        {
+          "w": 1320,
+          "h": 1417,
+          "jpg": "patio-11-1320.jpg",
+          "webp": "patio-11-1320.webp",
+          "avif": "patio-11-1320.avif",
+          "bytes": {
+            "jpg": 489326,
+            "webp": 399298,
+            "avif": 228336
+          }
+        }
+      ]
+    },
+    {
+      "id": "patio-12",
+      "file": "patio-12.jpg",
+      "source": "midias/raw/patio/1cMthx_IMG_7290.PNG",
+      "width": 1290,
+      "height": 2868,
+      "aspect": 0.45,
+      "orientation": "portrait",
+      "service": "patio",
+      "finish": "stamped (ashlar + dark border)",
+      "moment": "after",
+      "hero": false,
+      "lcp_ok": false,
+      "composition": "Muito vertical (≈1:2,2); bordas pretas laterais de 14 px removidas. Curva do patio contra palha; céu azul no topo.",
+      "alt": "Curved stamped concrete patio with a dark border wrapping the back of a house",
+      "dominant_color": "#93ABC4",
+      "focal_point": {
+        "x": 50,
+        "y": 70,
+        "object_position": "50% 70%"
+      },
+      "processing": [
+        "bordas uniformes removidas (l,t,r,b = (15, 0, 15, 0))"
+      ],
+      "notes": "preview do cliente (PRV IMG_7290)",
+      "variants": [
+        {
+          "w": 480,
+          "h": 1067,
+          "jpg": "patio-12-480.jpg",
+          "webp": "patio-12-480.webp",
+          "avif": "patio-12-480.avif",
+          "bytes": {
+            "jpg": 164229,
+            "webp": 139836,
+            "avif": 79446
+          }
+        },
+        {
+          "w": 800,
+          "h": 1779,
+          "jpg": "patio-12-800.jpg",
+          "webp": "patio-12-800.webp",
+          "avif": "patio-12-800.avif",
+          "bytes": {
+            "jpg": 399543,
+            "webp": 319778,
+            "avif": 183926
+          }
+        },
+        {
+          "w": 1200,
+          "h": 2668,
+          "jpg": "patio-12-1200.jpg",
+          "webp": "patio-12-1200.webp",
+          "avif": "patio-12-1200.avif",
+          "bytes": {
+            "jpg": 734869,
+            "webp": 529870,
+            "avif": 308616
+          }
+        },
+        {
+          "w": 1290,
+          "h": 2868,
+          "jpg": "patio-12-1290.jpg",
+          "webp": "patio-12-1290.webp",
+          "avif": "patio-12-1290.avif",
+          "bytes": {
+            "jpg": 829735,
+            "webp": 588860,
+            "avif": 339144
+          }
+        }
+      ]
+    },
+    {
+      "id": "driveway-01",
+      "file": "driveway-01.jpg",
+      "source": "midias/raw/driveway/1LCgP5_IMG_7317.PNG",
+      "width": 1320,
+      "height": 945,
+      "aspect": 1.397,
+      "orientation": "landscape",
+      "service": "driveway",
+      "finish": "broom",
+      "moment": "after",
+      "hero": true,
+      "lcp_ok": true,
+      "composition": "Panorâmica: driveway curvo com ilha de retorno, gramado e lago ao fundo. Céu claro ~25% superior + árvores: texto à esquerda superior.",
+      "alt": "Long curved broom-finish concrete driveway with a turnaround island leading to a house",
+      "dominant_color": "#43622D",
+      "focal_point": {
+        "x": 55,
+        "y": 62,
+        "object_position": "55% 62%"
+      },
+      "processing": [
+        "nenhum corte"
+      ],
+      "notes": "",
+      "variants": [
+        {
+          "w": 480,
+          "h": 344,
+          "jpg": "driveway-01-480.jpg",
+          "webp": "driveway-01-480.webp",
+          "avif": "driveway-01-480.avif",
+          "bytes": {
+            "jpg": 39521,
+            "webp": 29722,
+            "avif": 19527
+          }
+        },
+        {
+          "w": 800,
+          "h": 573,
+          "jpg": "driveway-01-800.jpg",
+          "webp": "driveway-01-800.webp",
+          "avif": "driveway-01-800.avif",
+          "bytes": {
+            "jpg": 100305,
+            "webp": 72790,
+            "avif": 48442
+          }
+        },
+        {
+          "w": 1200,
+          "h": 859,
+          "jpg": "driveway-01-1200.jpg",
+          "webp": "driveway-01-1200.webp",
+          "avif": "driveway-01-1200.avif",
+          "bytes": {
+            "jpg": 204901,
+            "webp": 143248,
+            "avif": 98501
+          }
+        },
+        {
+          "w": 1320,
+          "h": 945,
+          "jpg": "driveway-01-1320.jpg",
+          "webp": "driveway-01-1320.webp",
+          "avif": "driveway-01-1320.avif",
+          "bytes": {
+            "jpg": 247801,
+            "webp": 171476,
+            "avif": 118175
+          }
+        }
+      ]
+    },
+    {
+      "id": "driveway-02",
+      "file": "driveway-02.jpg",
+      "source": "midias/raw/driveway/1FnEAO_IMG_7322.PNG",
+      "width": 1320,
+      "height": 907,
+      "aspect": 1.455,
+      "orientation": "landscape",
+      "service": "driveway",
+      "finish": "broom",
+      "moment": "after",
+      "hero": false,
+      "lcp_ok": false,
+      "composition": "Frontal; driveway largo ocupa 2/3 inferiores; portões de garagem de madeira.",
+      "alt": "Wide broom-finish concrete driveway with control joints leading to a two-car garage",
+      "dominant_color": "#1E2115",
+      "focal_point": {
+        "x": 60,
+        "y": 40,
+        "object_position": "60% 40%"
+      },
+      "processing": [
+        "nenhum corte"
+      ],
+      "notes": "adesivos de instalador no batente da garagem (ilegíveis em web)",
+      "variants": [
+        {
+          "w": 480,
+          "h": 330,
+          "jpg": "driveway-02-480.jpg",
+          "webp": "driveway-02-480.webp",
+          "avif": "driveway-02-480.avif",
+          "bytes": {
+            "jpg": 30718,
+            "webp": 19590,
+            "avif": 14678
+          }
+        },
+        {
+          "w": 800,
+          "h": 550,
+          "jpg": "driveway-02-800.jpg",
+          "webp": "driveway-02-800.webp",
+          "avif": "driveway-02-800.avif",
+          "bytes": {
+            "jpg": 82022,
+            "webp": 53698,
+            "avif": 38925
+          }
+        },
+        {
+          "w": 1200,
+          "h": 825,
+          "jpg": "driveway-02-1200.jpg",
+          "webp": "driveway-02-1200.webp",
+          "avif": "driveway-02-1200.avif",
+          "bytes": {
+            "jpg": 180805,
+            "webp": 118450,
+            "avif": 85458
+          }
+        },
+        {
+          "w": 1320,
+          "h": 907,
+          "jpg": "driveway-02-1320.jpg",
+          "webp": "driveway-02-1320.webp",
+          "avif": "driveway-02-1320.avif",
+          "bytes": {
+            "jpg": 223958,
+            "webp": 148176,
+            "avif": 104914
+          }
+        }
+      ]
+    },
+    {
+      "id": "driveway-03",
+      "file": "driveway-03.jpg",
+      "source": "midias/raw/driveway/1VVEH7_IMG_4515.PNG",
+      "width": 1320,
+      "height": 1582,
+      "aspect": 0.834,
+      "orientation": "portrait",
+      "service": "driveway",
+      "finish": "broom",
+      "moment": "after",
+      "hero": false,
+      "lcp_ok": false,
+      "composition": "Vertical; céu com nuvens ~30% superior; sombras de árvores no concreto. Bom hero mobile de /driveways.",
+      "alt": "New broom-finish concrete driveway in front of a dark craftsman-style home",
+      "dominant_color": "#21221D",
+      "focal_point": {
+        "x": 50,
+        "y": 62,
+        "object_position": "50% 62%"
+      },
+      "processing": [
+        "nenhum corte"
+      ],
+      "notes": "",
+      "variants": [
+        {
+          "w": 480,
+          "h": 575,
+          "jpg": "driveway-03-480.jpg",
+          "webp": "driveway-03-480.webp",
+          "avif": "driveway-03-480.avif",
+          "bytes": {
+            "jpg": 62622,
+            "webp": 45220,
+            "avif": 29526
+          }
+        },
+        {
+          "w": 800,
+          "h": 959,
+          "jpg": "driveway-03-800.jpg",
+          "webp": "driveway-03-800.webp",
+          "avif": "driveway-03-800.avif",
+          "bytes": {
+            "jpg": 163522,
+            "webp": 117442,
+            "avif": 75511
+          }
+        },
+        {
+          "w": 1200,
+          "h": 1438,
+          "jpg": "driveway-03-1200.jpg",
+          "webp": "driveway-03-1200.webp",
+          "avif": "driveway-03-1200.avif",
+          "bytes": {
+            "jpg": 347311,
+            "webp": 246050,
+            "avif": 161536
+          }
+        },
+        {
+          "w": 1320,
+          "h": 1582,
+          "jpg": "driveway-03-1320.jpg",
+          "webp": "driveway-03-1320.webp",
+          "avif": "driveway-03-1320.avif",
+          "bytes": {
+            "jpg": 418351,
+            "webp": 306038,
+            "avif": 201518
+          }
+        }
+      ]
+    },
+    {
+      "id": "driveway-04",
+      "file": "driveway-04.jpg",
+      "source": "midias/raw/driveway/14IJmo_IMG_2184.PNG",
+      "width": 1320,
+      "height": 1379,
+      "aspect": 0.957,
+      "orientation": "square",
+      "service": "driveway",
+      "finish": "broom",
+      "moment": "after (em cura, isolado com fita)",
+      "hero": false,
+      "lcp_ok": false,
+      "composition": "Céu dramático ~45% superior (ótimo para texto); fita de isolamento amarela atravessando.",
+      "alt": "Freshly finished concrete driveway taped off for curing under a dramatic sky",
+      "dominant_color": "#2B311F",
+      "focal_point": {
+        "x": 50,
+        "y": 70,
+        "object_position": "50% 70%"
+      },
+      "processing": [
+        "nenhum corte"
+      ],
+      "notes": "",
+      "variants": [
+        {
+          "w": 480,
+          "h": 501,
+          "jpg": "driveway-04-480.jpg",
+          "webp": "driveway-04-480.webp",
+          "avif": "driveway-04-480.avif",
+          "bytes": {
+            "jpg": 40529,
+            "webp": 23636,
+            "avif": 18109
+          }
+        },
+        {
+          "w": 800,
+          "h": 836,
+          "jpg": "driveway-04-800.jpg",
+          "webp": "driveway-04-800.webp",
+          "avif": "driveway-04-800.avif",
+          "bytes": {
+            "jpg": 97469,
+            "webp": 54220,
+            "avif": 40881
+          }
+        },
+        {
+          "w": 1200,
+          "h": 1254,
+          "jpg": "driveway-04-1200.jpg",
+          "webp": "driveway-04-1200.webp",
+          "avif": "driveway-04-1200.avif",
+          "bytes": {
+            "jpg": 184227,
+            "webp": 93558,
+            "avif": 72876
+          }
+        },
+        {
+          "w": 1320,
+          "h": 1379,
+          "jpg": "driveway-04-1320.jpg",
+          "webp": "driveway-04-1320.webp",
+          "avif": "driveway-04-1320.avif",
+          "bytes": {
+            "jpg": 220696,
+            "webp": 107260,
+            "avif": 83644
+          }
+        }
+      ]
+    },
+    {
+      "id": "driveway-05",
+      "file": "driveway-05.jpg",
+      "source": "midias/raw/driveway/1Vqzmu_IMG_2186.PNG",
+      "width": 1320,
+      "height": 1728,
+      "aspect": 0.764,
+      "orientation": "portrait",
+      "service": "driveway",
+      "finish": "broom",
+      "moment": "after (em cura, isolado com fita)",
+      "hero": false,
+      "lcp_ok": false,
+      "composition": "Sol no céu superior direito; calçada antiga molhada em 1º plano.",
+      "alt": "New concrete driveway meeting the existing sidewalk, with the sun overhead",
+      "dominant_color": "#837B6E",
+      "focal_point": {
+        "x": 50,
+        "y": 70,
+        "object_position": "50% 70%"
+      },
+      "processing": [
+        "nenhum corte"
+      ],
+      "notes": "",
+      "variants": [
+        {
+          "w": 480,
+          "h": 628,
+          "jpg": "driveway-05-480.jpg",
+          "webp": "driveway-05-480.webp",
+          "avif": "driveway-05-480.avif",
+          "bytes": {
+            "jpg": 48939,
+            "webp": 30152,
+            "avif": 22724
+          }
+        },
+        {
+          "w": 800,
+          "h": 1047,
+          "jpg": "driveway-05-800.jpg",
+          "webp": "driveway-05-800.webp",
+          "avif": "driveway-05-800.avif",
+          "bytes": {
+            "jpg": 117735,
+            "webp": 67444,
+            "avif": 51698
+          }
+        },
+        {
+          "w": 1200,
+          "h": 1571,
+          "jpg": "driveway-05-1200.jpg",
+          "webp": "driveway-05-1200.webp",
+          "avif": "driveway-05-1200.avif",
+          "bytes": {
+            "jpg": 219992,
+            "webp": 112108,
+            "avif": 90811
+          }
+        },
+        {
+          "w": 1320,
+          "h": 1728,
+          "jpg": "driveway-05-1320.jpg",
+          "webp": "driveway-05-1320.webp",
+          "avif": "driveway-05-1320.avif",
+          "bytes": {
+            "jpg": 262231,
+            "webp": 127176,
+            "avif": 101570
+          }
+        }
+      ]
+    },
+    {
+      "id": "driveway-06",
+      "file": "driveway-06.jpg",
+      "source": "midias/raw/driveway/1uBw7s_IMG_2185.PNG",
+      "width": 1320,
+      "height": 1755,
+      "aspect": 0.752,
+      "orientation": "portrait",
+      "service": "driveway",
+      "finish": "broom",
+      "moment": "after",
+      "hero": false,
+      "lcp_ok": false,
+      "composition": "Driveway + apron substituídos; carro distante na rua (placa ilegível); itens de obra no gramado.",
+      "alt": "Replaced concrete driveway and apron with new control joints, split-level home behind",
+      "dominant_color": "#91A2A9",
+      "focal_point": {
+        "x": 50,
+        "y": 60,
+        "object_position": "50% 60%"
+      },
+      "processing": [
+        "nenhum corte"
+      ],
+      "notes": "",
+      "variants": [
+        {
+          "w": 480,
+          "h": 638,
+          "jpg": "driveway-06-480.jpg",
+          "webp": "driveway-06-480.webp",
+          "avif": "driveway-06-480.avif",
+          "bytes": {
+            "jpg": 66624,
+            "webp": 45614,
+            "avif": 31885
+          }
+        },
+        {
+          "w": 800,
+          "h": 1064,
+          "jpg": "driveway-06-800.jpg",
+          "webp": "driveway-06-800.webp",
+          "avif": "driveway-06-800.avif",
+          "bytes": {
+            "jpg": 163620,
+            "webp": 106094,
+            "avif": 76116
+          }
+        },
+        {
+          "w": 1200,
+          "h": 1595,
+          "jpg": "driveway-06-1200.jpg",
+          "webp": "driveway-06-1200.webp",
+          "avif": "driveway-06-1200.avif",
+          "bytes": {
+            "jpg": 310453,
+            "webp": 179656,
+            "avif": 135831
+          }
+        },
+        {
+          "w": 1320,
+          "h": 1755,
+          "jpg": "driveway-06-1320.jpg",
+          "webp": "driveway-06-1320.webp",
+          "avif": "driveway-06-1320.avif",
+          "bytes": {
+            "jpg": 370700,
+            "webp": 202932,
+            "avif": 154479
+          }
+        }
+      ]
+    },
+    {
+      "id": "driveway-07",
+      "file": "driveway-07.jpg",
+      "source": "midias/raw/driveway/1B0Nrc_IMG_3898.PNG",
+      "width": 1290,
+      "height": 1487,
+      "aspect": 0.868,
+      "orientation": "portrait",
+      "service": "driveway",
+      "finish": "broom",
+      "moment": "after (em cura, isolado com fita)",
+      "hero": false,
+      "lcp_ok": false,
+      "composition": "Frontal; fita amarela; casa de dois andares ao fundo.",
+      "alt": "Newly poured concrete driveway and apron taped off for curing in front of a two-story home",
+      "dominant_color": "#262B28",
+      "focal_point": {
+        "x": 50,
+        "y": 60,
+        "object_position": "50% 60%"
+      },
+      "processing": [
+        "nenhum corte"
+      ],
+      "notes": "preview do cliente (PRV IMG_3898)",
+      "variants": [
+        {
+          "w": 480,
+          "h": 553,
+          "jpg": "driveway-07-480.jpg",
+          "webp": "driveway-07-480.webp",
+          "avif": "driveway-07-480.avif",
+          "bytes": {
+            "jpg": 55254,
+            "webp": 39590,
+            "avif": 26865
+          }
+        },
+        {
+          "w": 800,
+          "h": 922,
+          "jpg": "driveway-07-800.jpg",
+          "webp": "driveway-07-800.webp",
+          "avif": "driveway-07-800.avif",
+          "bytes": {
+            "jpg": 155096,
+            "webp": 116336,
+            "avif": 74709
+          }
+        },
+        {
+          "w": 1200,
+          "h": 1383,
+          "jpg": "driveway-07-1200.jpg",
+          "webp": "driveway-07-1200.webp",
+          "avif": "driveway-07-1200.avif",
+          "bytes": {
+            "jpg": 332611,
+            "webp": 244510,
+            "avif": 158679
+          }
+        },
+        {
+          "w": 1290,
+          "h": 1487,
+          "jpg": "driveway-07-1290.jpg",
+          "webp": "driveway-07-1290.webp",
+          "avif": "driveway-07-1290.avif",
+          "bytes": {
+            "jpg": 384852,
+            "webp": 283680,
+            "avif": 183850
+          }
+        }
+      ]
+    },
+    {
+      "id": "driveway-08",
+      "file": "driveway-08.jpg",
+      "source": "midias/raw/driveway/10VVgd_IMG_2183.PNG",
+      "width": 1320,
+      "height": 1778,
+      "aspect": 0.742,
+      "orientation": "portrait",
+      "service": "driveway",
+      "finish": "broom",
+      "moment": "after (recém-acabado)",
+      "hero": false,
+      "lcp_ok": false,
+      "composition": "Vertical; céu nublado ~45% superior; garagem branca tripla ao fundo.",
+      "alt": "Freshly finished concrete driveway leading to a white three-car garage under an overcast sky",
+      "dominant_color": "#87867A",
+      "focal_point": {
+        "x": 50,
+        "y": 60,
+        "object_position": "50% 60%"
+      },
+      "processing": [
+        "nenhum corte"
+      ],
+      "notes": "",
+      "variants": [
+        {
+          "w": 480,
+          "h": 647,
+          "jpg": "driveway-08-480.jpg",
+          "webp": "driveway-08-480.webp",
+          "avif": "driveway-08-480.avif",
+          "bytes": {
+            "jpg": 33013,
+            "webp": 15642,
+            "avif": 12902
+          }
+        },
+        {
+          "w": 800,
+          "h": 1078,
+          "jpg": "driveway-08-800.jpg",
+          "webp": "driveway-08-800.webp",
+          "avif": "driveway-08-800.avif",
+          "bytes": {
+            "jpg": 74277,
+            "webp": 31448,
+            "avif": 27864
+          }
+        },
+        {
+          "w": 1200,
+          "h": 1616,
+          "jpg": "driveway-08-1200.jpg",
+          "webp": "driveway-08-1200.webp",
+          "avif": "driveway-08-1200.avif",
+          "bytes": {
+            "jpg": 134699,
+            "webp": 53290,
+            "avif": 46907
+          }
+        },
+        {
+          "w": 1320,
+          "h": 1778,
+          "jpg": "driveway-08-1320.jpg",
+          "webp": "driveway-08-1320.webp",
+          "avif": "driveway-08-1320.avif",
+          "bytes": {
+            "jpg": 164855,
+            "webp": 61910,
+            "avif": 54225
+          }
+        }
+      ]
+    },
+    {
+      "id": "driveway-09",
+      "file": "driveway-09.jpg",
+      "source": "midias/raw/driveway/159vrN_IMG_7681.PNG",
+      "width": 1290,
+      "height": 1248,
+      "aspect": 1.034,
+      "orientation": "square",
+      "service": "driveway",
+      "finish": "broom",
+      "moment": "after",
+      "hero": false,
+      "lcp_ok": false,
+      "composition": "Lateral da casa, sombra forte; rua com carros distantes (placas ilegíveis).",
+      "alt": "Broom-finish concrete driveway with control joints running alongside a house",
+      "dominant_color": "#1C1F1E",
+      "focal_point": {
+        "x": 45,
+        "y": 60,
+        "object_position": "45% 60%"
+      },
+      "processing": [
+        "nenhum corte"
+      ],
+      "notes": "",
+      "variants": [
+        {
+          "w": 480,
+          "h": 464,
+          "jpg": "driveway-09-480.jpg",
+          "webp": "driveway-09-480.webp",
+          "avif": "driveway-09-480.avif",
+          "bytes": {
+            "jpg": 49364,
+            "webp": 36676,
+            "avif": 22953
+          }
+        },
+        {
+          "w": 800,
+          "h": 774,
+          "jpg": "driveway-09-800.jpg",
+          "webp": "driveway-09-800.webp",
+          "avif": "driveway-09-800.avif",
+          "bytes": {
+            "jpg": 145379,
+            "webp": 114418,
+            "avif": 68651
+          }
+        },
+        {
+          "w": 1200,
+          "h": 1161,
+          "jpg": "driveway-09-1200.jpg",
+          "webp": "driveway-09-1200.webp",
+          "avif": "driveway-09-1200.avif",
+          "bytes": {
+            "jpg": 319772,
+            "webp": 249400,
+            "avif": 151754
+          }
+        },
+        {
+          "w": 1290,
+          "h": 1248,
+          "jpg": "driveway-09-1290.jpg",
+          "webp": "driveway-09-1290.webp",
+          "avif": "driveway-09-1290.avif",
+          "bytes": {
+            "jpg": 350955,
+            "webp": 287026,
+            "avif": 192316
+          }
+        }
+      ]
+    },
+    {
+      "id": "driveway-10",
+      "file": "driveway-10.jpg",
+      "source": "midias/raw/driveway/1MN3tg_IMG_3894.PNG",
+      "width": 1320,
+      "height": 1492,
+      "aspect": 0.885,
+      "orientation": "portrait",
+      "service": "driveway",
+      "finish": "broom",
+      "moment": "after",
+      "hero": false,
+      "lcp_ok": false,
+      "composition": "Driveway longo e estreito cruzando gramado; grelha de drenagem no 1º plano.",
+      "alt": "Long, narrow broom-finish concrete driveway crossing a wide lawn",
+      "dominant_color": "#C6C8CE",
+      "focal_point": {
+        "x": 50,
+        "y": 55,
+        "object_position": "50% 55%"
+      },
+      "processing": [
+        "nenhum corte"
+      ],
+      "notes": "",
+      "variants": [
+        {
+          "w": 480,
+          "h": 543,
+          "jpg": "driveway-10-480.jpg",
+          "webp": "driveway-10-480.webp",
+          "avif": "driveway-10-480.avif",
+          "bytes": {
+            "jpg": 49771,
+            "webp": 32844,
+            "avif": 24498
+          }
+        },
+        {
+          "w": 800,
+          "h": 904,
+          "jpg": "driveway-10-800.jpg",
+          "webp": "driveway-10-800.webp",
+          "avif": "driveway-10-800.avif",
+          "bytes": {
+            "jpg": 136782,
+            "webp": 95116,
+            "avif": 68594
+          }
+        },
+        {
+          "w": 1200,
+          "h": 1356,
+          "jpg": "driveway-10-1200.jpg",
+          "webp": "driveway-10-1200.webp",
+          "avif": "driveway-10-1200.avif",
+          "bytes": {
+            "jpg": 301413,
+            "webp": 209160,
+            "avif": 149207
+          }
+        },
+        {
+          "w": 1320,
+          "h": 1492,
+          "jpg": "driveway-10-1320.jpg",
+          "webp": "driveway-10-1320.webp",
+          "avif": "driveway-10-1320.avif",
+          "bytes": {
+            "jpg": 360900,
+            "webp": 260866,
+            "avif": 183998
+          }
+        }
+      ]
+    },
+    {
+      "id": "driveway-11",
+      "file": "driveway-11.jpg",
+      "source": "midias/raw/driveway/1WLNdo_IMG_4991.PNG",
+      "width": 1290,
+      "height": 1586,
+      "aspect": 0.813,
+      "orientation": "portrait",
+      "service": "driveway",
+      "finish": "broom",
+      "moment": "after",
+      "hero": false,
+      "lcp_ok": false,
+      "composition": "Recorte da área de foto de um print do iPhone. Diagonal descendente com juntas.",
+      "alt": "Concrete driveway with control joints running down a residential lot",
+      "dominant_color": "#BDC1C0",
+      "focal_point": {
+        "x": 50,
+        "y": 55,
+        "object_position": "50% 55%"
+      },
+      "processing": [
+        "recorte da área da foto no print (y 605–2191)"
+      ],
+      "notes": "preview do cliente (PRV IMG_4991); arquivo bruto era print de tela",
+      "variants": [
+        {
+          "w": 480,
+          "h": 590,
+          "jpg": "driveway-11-480.jpg",
+          "webp": "driveway-11-480.webp",
+          "avif": "driveway-11-480.avif",
+          "bytes": {
+            "jpg": 62565,
+            "webp": 45854,
+            "avif": 30594
+          }
+        },
+        {
+          "w": 800,
+          "h": 984,
+          "jpg": "driveway-11-800.jpg",
+          "webp": "driveway-11-800.webp",
+          "avif": "driveway-11-800.avif",
+          "bytes": {
+            "jpg": 178923,
+            "webp": 136604,
+            "avif": 88814
+          }
+        },
+        {
+          "w": 1200,
+          "h": 1475,
+          "jpg": "driveway-11-1200.jpg",
+          "webp": "driveway-11-1200.webp",
+          "avif": "driveway-11-1200.avif",
+          "bytes": {
+            "jpg": 388479,
+            "webp": 289964,
+            "avif": 191545
+          }
+        },
+        {
+          "w": 1290,
+          "h": 1586,
+          "jpg": "driveway-11-1290.jpg",
+          "webp": "driveway-11-1290.webp",
+          "avif": "driveway-11-1290.avif",
+          "bytes": {
+            "jpg": 448863,
+            "webp": 333876,
+            "avif": 221399
+          }
+        }
+      ]
+    },
+    {
+      "id": "driveway-stamped-01",
+      "file": "driveway-stamped-01.jpg",
+      "source": "midias/raw/driveway/1WuNS5_IMG_5565.PNG",
+      "width": 1290,
+      "height": 1539,
+      "aspect": 0.838,
+      "orientation": "portrait",
+      "service": "driveway",
+      "finish": "stamped (flagstone, sealed)",
+      "moment": "after",
+      "hero": false,
+      "lcp_ok": false,
+      "composition": "Selador brilhante; árvores sem folhas; sombra longa atravessando.",
+      "alt": "Flagstone-pattern stamped concrete driveway with a glossy sealer",
+      "dominant_color": "#707075",
+      "focal_point": {
+        "x": 50,
+        "y": 60,
+        "object_position": "50% 60%"
+      },
+      "processing": [
+        "nenhum corte"
+      ],
+      "notes": "",
+      "variants": [
+        {
+          "w": 480,
+          "h": 573,
+          "jpg": "driveway-stamped-01-480.jpg",
+          "webp": "driveway-stamped-01-480.webp",
+          "avif": "driveway-stamped-01-480.avif",
+          "bytes": {
+            "jpg": 67383,
+            "webp": 51918,
+            "avif": 33904
+          }
+        },
+        {
+          "w": 800,
+          "h": 954,
+          "jpg": "driveway-stamped-01-800.jpg",
+          "webp": "driveway-stamped-01-800.webp",
+          "avif": "driveway-stamped-01-800.avif",
+          "bytes": {
+            "jpg": 165711,
+            "webp": 118190,
+            "avif": 78651
+          }
+        },
+        {
+          "w": 1200,
+          "h": 1432,
+          "jpg": "driveway-stamped-01-1200.jpg",
+          "webp": "driveway-stamped-01-1200.webp",
+          "avif": "driveway-stamped-01-1200.avif",
+          "bytes": {
+            "jpg": 318691,
+            "webp": 209416,
+            "avif": 143061
+          }
+        },
+        {
+          "w": 1290,
+          "h": 1539,
+          "jpg": "driveway-stamped-01-1290.jpg",
+          "webp": "driveway-stamped-01-1290.webp",
+          "avif": "driveway-stamped-01-1290.avif",
+          "bytes": {
+            "jpg": 358945,
+            "webp": 229092,
+            "avif": 160208
+          }
+        }
+      ]
+    },
+    {
+      "id": "texture-stamped-01",
+      "file": "texture-stamped-01.jpg",
+      "source": "midias/raw/patio/1X8Le-_IMG_7296.PNG",
+      "width": 1320,
+      "height": 890,
+      "aspect": 1.483,
+      "orientation": "landscape",
+      "service": "stamped-concrete",
+      "finish": "stamped (ashlar + compass medallion)",
+      "moment": "after",
+      "hero": false,
+      "lcp_ok": false,
+      "composition": "Close do medalhão rosa-dos-ventos; preenche o quadro.",
+      "alt": "Close-up of a compass-rose medallion stamped into a tan ashlar-pattern concrete patio",
+      "dominant_color": "#946E46",
+      "focal_point": {
+        "x": 50,
+        "y": 50,
+        "object_position": "50% 50%"
+      },
+      "processing": [
+        "nenhum corte"
+      ],
+      "notes": "",
+      "variants": [
+        {
+          "w": 480,
+          "h": 324,
+          "jpg": "texture-stamped-01-480.jpg",
+          "webp": "texture-stamped-01-480.webp",
+          "avif": "texture-stamped-01-480.avif",
+          "bytes": {
+            "jpg": 43196,
+            "webp": 34700,
+            "avif": 21823
+          }
+        },
+        {
+          "w": 800,
+          "h": 539,
+          "jpg": "texture-stamped-01-800.jpg",
+          "webp": "texture-stamped-01-800.webp",
+          "avif": "texture-stamped-01-800.avif",
+          "bytes": {
+            "jpg": 112301,
+            "webp": 89014,
+            "avif": 55916
+          }
+        },
+        {
+          "w": 1200,
+          "h": 809,
+          "jpg": "texture-stamped-01-1200.jpg",
+          "webp": "texture-stamped-01-1200.webp",
+          "avif": "texture-stamped-01-1200.avif",
+          "bytes": {
+            "jpg": 233952,
+            "webp": 174486,
+            "avif": 116079
+          }
+        },
+        {
+          "w": 1320,
+          "h": 890,
+          "jpg": "texture-stamped-01-1320.jpg",
+          "webp": "texture-stamped-01-1320.webp",
+          "avif": "texture-stamped-01-1320.avif",
+          "bytes": {
+            "jpg": 278330,
+            "webp": 211178,
+            "avif": 141042
+          }
+        }
+      ]
+    },
+    {
+      "id": "texture-stamped-02",
+      "file": "texture-stamped-02.jpg",
+      "source": "midias/raw/patio/1frbHs_IMG_6102.PNG",
+      "width": 1320,
+      "height": 1115,
+      "aspect": 1.184,
+      "orientation": "landscape",
+      "service": "stamped-concrete",
+      "finish": "stamped (flagstone)",
+      "moment": "after",
+      "hero": false,
+      "lcp_ok": false,
+      "composition": "Textura flagstone preenchendo o quadro, luz rasante.",
+      "alt": "Close-up of flagstone-pattern stamped concrete with deep grout lines",
+      "dominant_color": "#8C817E",
+      "focal_point": {
+        "x": 50,
+        "y": 55,
+        "object_position": "50% 55%"
+      },
+      "processing": [
+        "nenhum corte"
+      ],
+      "notes": "",
+      "variants": [
+        {
+          "w": 480,
+          "h": 405,
+          "jpg": "texture-stamped-02-480.jpg",
+          "webp": "texture-stamped-02-480.webp",
+          "avif": "texture-stamped-02-480.avif",
+          "bytes": {
+            "jpg": 54065,
+            "webp": 43900,
+            "avif": 27045
+          }
+        },
+        {
+          "w": 800,
+          "h": 676,
+          "jpg": "texture-stamped-02-800.jpg",
+          "webp": "texture-stamped-02-800.webp",
+          "avif": "texture-stamped-02-800.avif",
+          "bytes": {
+            "jpg": 147651,
+            "webp": 118314,
+            "avif": 72921
+          }
+        },
+        {
+          "w": 1200,
+          "h": 1014,
+          "jpg": "texture-stamped-02-1200.jpg",
+          "webp": "texture-stamped-02-1200.webp",
+          "avif": "texture-stamped-02-1200.avif",
+          "bytes": {
+            "jpg": 289422,
+            "webp": 212878,
+            "avif": 135718
+          }
+        },
+        {
+          "w": 1320,
+          "h": 1115,
+          "jpg": "texture-stamped-02-1320.jpg",
+          "webp": "texture-stamped-02-1320.webp",
+          "avif": "texture-stamped-02-1320.avif",
+          "bytes": {
+            "jpg": 329688,
+            "webp": 240382,
+            "avif": 159233
+          }
+        }
+      ]
+    },
+    {
+      "id": "texture-stamped-03",
+      "file": "texture-stamped-03.jpg",
+      "source": "midias/raw/driveway/1ZNeH__IMG_2408.PNG",
+      "width": 1320,
+      "height": 1151,
+      "aspect": 1.147,
+      "orientation": "landscape",
+      "service": "stamped-concrete",
+      "finish": "stamped (compass medallion on walkway)",
+      "moment": "after",
+      "hero": false,
+      "lcp_ok": false,
+      "composition": "Medalhão colorido em 1º plano, walkway curvo ao fundo.",
+      "alt": "Colored compass-rose medallion stamped into a concrete walkway",
+      "dominant_color": "#83826E",
+      "focal_point": {
+        "x": 55,
+        "y": 60,
+        "object_position": "55% 60%"
+      },
+      "processing": [
+        "nenhum corte"
+      ],
+      "notes": "",
+      "variants": [
+        {
+          "w": 480,
+          "h": 419,
+          "jpg": "texture-stamped-03-480.jpg",
+          "webp": "texture-stamped-03-480.webp",
+          "avif": "texture-stamped-03-480.avif",
+          "bytes": {
+            "jpg": 66073,
+            "webp": 57080,
+            "avif": 33820
+          }
+        },
+        {
+          "w": 800,
+          "h": 698,
+          "jpg": "texture-stamped-03-800.jpg",
+          "webp": "texture-stamped-03-800.webp",
+          "avif": "texture-stamped-03-800.avif",
+          "bytes": {
+            "jpg": 185190,
+            "webp": 162860,
+            "avif": 97251
+          }
+        },
+        {
+          "w": 1200,
+          "h": 1046,
+          "jpg": "texture-stamped-03-1200.jpg",
+          "webp": "texture-stamped-03-1200.webp",
+          "avif": "texture-stamped-03-1200.avif",
+          "bytes": {
+            "jpg": 372452,
+            "webp": 322108,
+            "avif": 188201
+          }
+        },
+        {
+          "w": 1320,
+          "h": 1151,
+          "jpg": "texture-stamped-03-1320.jpg",
+          "webp": "texture-stamped-03-1320.webp",
+          "avif": "texture-stamped-03-1320.avif",
+          "bytes": {
+            "jpg": 428143,
+            "webp": 373628,
+            "avif": 221001
+          }
+        }
+      ]
+    },
+    {
+      "id": "texture-stamped-04",
+      "file": "texture-stamped-04.jpg",
+      "source": "midias/raw/pool/1E22fJ_IMG_7268.PNG",
+      "width": 1320,
+      "height": 942,
+      "aspect": 1.401,
+      "orientation": "landscape",
+      "service": "stamped-concrete",
+      "finish": "stamped (seamless + dark coping)",
+      "moment": "after",
+      "hero": false,
+      "lcp_ok": false,
+      "composition": "Close da textura e da borda escura na quina da piscina; cascalho ao lado.",
+      "alt": "Close-up of a seamless stamped concrete deck and dark border at a pool corner",
+      "dominant_color": "#343C40",
+      "focal_point": {
+        "x": 45,
+        "y": 55,
+        "object_position": "45% 55%"
+      },
+      "processing": [
+        "nenhum corte"
+      ],
+      "notes": "",
+      "variants": [
+        {
+          "w": 480,
+          "h": 343,
+          "jpg": "texture-stamped-04-480.jpg",
+          "webp": "texture-stamped-04-480.webp",
+          "avif": "texture-stamped-04-480.avif",
+          "bytes": {
+            "jpg": 55760,
+            "webp": 50814,
+            "avif": 28644
+          }
+        },
+        {
+          "w": 800,
+          "h": 571,
+          "jpg": "texture-stamped-04-800.jpg",
+          "webp": "texture-stamped-04-800.webp",
+          "avif": "texture-stamped-04-800.avif",
+          "bytes": {
+            "jpg": 151938,
+            "webp": 136530,
+            "avif": 77697
+          }
+        },
+        {
+          "w": 1200,
+          "h": 856,
+          "jpg": "texture-stamped-04-1200.jpg",
+          "webp": "texture-stamped-04-1200.webp",
+          "avif": "texture-stamped-04-1200.avif",
+          "bytes": {
+            "jpg": 321122,
+            "webp": 284114,
+            "avif": 161427
+          }
+        },
+        {
+          "w": 1320,
+          "h": 942,
+          "jpg": "texture-stamped-04-1320.jpg",
+          "webp": "texture-stamped-04-1320.webp",
+          "avif": "texture-stamped-04-1320.avif",
+          "bytes": {
+            "jpg": 389907,
+            "webp": 348238,
+            "avif": 197064
+          }
+        }
+      ]
+    },
+    {
+      "id": "texture-stamped-05",
+      "file": "texture-stamped-05.jpg",
+      "source": "midias/raw/pool/1jcgse_IMG_7284.PNG",
+      "width": 1320,
+      "height": 977,
+      "aspect": 1.351,
+      "orientation": "landscape",
+      "service": "stamped-concrete",
+      "finish": "stamped (flagstone, sealed)",
+      "moment": "after",
+      "hero": false,
+      "lcp_ok": false,
+      "composition": "Flagstone molhado/selado com spa elevado de pedra; reflexos.",
+      "alt": "Sealed flagstone-pattern stamped concrete beside a raised stone spa",
+      "dominant_color": "#75757A",
+      "focal_point": {
+        "x": 50,
+        "y": 60,
+        "object_position": "50% 60%"
+      },
+      "processing": [
+        "nenhum corte"
+      ],
+      "notes": "",
+      "variants": [
+        {
+          "w": 480,
+          "h": 355,
+          "jpg": "texture-stamped-05-480.jpg",
+          "webp": "texture-stamped-05-480.webp",
+          "avif": "texture-stamped-05-480.avif",
+          "bytes": {
+            "jpg": 52069,
+            "webp": 43638,
+            "avif": 25791
+          }
+        },
+        {
+          "w": 800,
+          "h": 592,
+          "jpg": "texture-stamped-05-800.jpg",
+          "webp": "texture-stamped-05-800.webp",
+          "avif": "texture-stamped-05-800.avif",
+          "bytes": {
+            "jpg": 142591,
+            "webp": 119978,
+            "avif": 70921
+          }
+        },
+        {
+          "w": 1200,
+          "h": 888,
+          "jpg": "texture-stamped-05-1200.jpg",
+          "webp": "texture-stamped-05-1200.webp",
+          "avif": "texture-stamped-05-1200.avif",
+          "bytes": {
+            "jpg": 309191,
+            "webp": 255292,
+            "avif": 151686
+          }
+        },
+        {
+          "w": 1320,
+          "h": 977,
+          "jpg": "texture-stamped-05-1320.jpg",
+          "webp": "texture-stamped-05-1320.webp",
+          "avif": "texture-stamped-05-1320.avif",
+          "bytes": {
+            "jpg": 376629,
+            "webp": 317766,
+            "avif": 187325
+          }
+        }
+      ]
+    },
+    {
+      "id": "texture-stamped-06",
+      "file": "texture-stamped-06.jpg",
+      "source": "midias/raw/pool/1IBYa2_IMG_2501.PNG",
+      "width": 1320,
+      "height": 1457,
+      "aspect": 0.906,
+      "orientation": "portrait",
+      "service": "stamped-concrete",
+      "finish": "stamped (seamless)",
+      "moment": "after",
+      "hero": false,
+      "lcp_ok": false,
+      "composition": "Close da textura seamless com juntas; reflexo de sol no topo; terra vermelha à direita.",
+      "alt": "Close-up of seamless stamped concrete with control joints",
+      "dominant_color": "#5F433A",
+      "focal_point": {
+        "x": 40,
+        "y": 55,
+        "object_position": "40% 55%"
+      },
+      "processing": [
+        "nenhum corte"
+      ],
+      "notes": "",
+      "variants": [
+        {
+          "w": 480,
+          "h": 530,
+          "jpg": "texture-stamped-06-480.jpg",
+          "webp": "texture-stamped-06-480.webp",
+          "avif": "texture-stamped-06-480.avif",
+          "bytes": {
+            "jpg": 67760,
+            "webp": 56290,
+            "avif": 35332
+          }
+        },
+        {
+          "w": 800,
+          "h": 883,
+          "jpg": "texture-stamped-06-800.jpg",
+          "webp": "texture-stamped-06-800.webp",
+          "avif": "texture-stamped-06-800.avif",
+          "bytes": {
+            "jpg": 206221,
+            "webp": 179752,
+            "avif": 109918
+          }
+        },
+        {
+          "w": 1200,
+          "h": 1325,
+          "jpg": "texture-stamped-06-1200.jpg",
+          "webp": "texture-stamped-06-1200.webp",
+          "avif": "texture-stamped-06-1200.avif",
+          "bytes": {
+            "jpg": 476319,
+            "webp": 419908,
+            "avif": 255962
+          }
+        },
+        {
+          "w": 1320,
+          "h": 1457,
+          "jpg": "texture-stamped-06-1320.jpg",
+          "webp": "texture-stamped-06-1320.webp",
+          "avif": "texture-stamped-06-1320.avif",
+          "bytes": {
+            "jpg": 578577,
+            "webp": 511448,
+            "avif": 319890
+          }
+        }
+      ]
+    },
+    {
+      "id": "walkway-01",
+      "file": "walkway-01.jpg",
+      "source": "midias/raw/driveway/17yT0X_IMG_2409.PNG",
+      "width": 1320,
+      "height": 1121,
+      "aspect": 1.178,
+      "orientation": "landscape",
+      "service": "walkway",
+      "finish": "stamped (seamless + border)",
+      "moment": "after",
+      "hero": false,
+      "lcp_ok": false,
+      "composition": "Walkway curvo em perspectiva, bordas mais claras.",
+      "alt": "Curved stamped concrete walkway with a contrasting border",
+      "dominant_color": "#B8AFA0",
+      "focal_point": {
+        "x": 50,
+        "y": 50,
+        "object_position": "50% 50%"
+      },
+      "processing": [
+        "nenhum corte"
+      ],
+      "notes": "estava na pasta driveway; é walkway",
+      "variants": [
+        {
+          "w": 480,
+          "h": 408,
+          "jpg": "walkway-01-480.jpg",
+          "webp": "walkway-01-480.webp",
+          "avif": "walkway-01-480.avif",
+          "bytes": {
+            "jpg": 67438,
+            "webp": 61360,
+            "avif": 35336
+          }
+        },
+        {
+          "w": 800,
+          "h": 679,
+          "jpg": "walkway-01-800.jpg",
+          "webp": "walkway-01-800.webp",
+          "avif": "walkway-01-800.avif",
+          "bytes": {
+            "jpg": 196729,
+            "webp": 181840,
+            "avif": 110263
+          }
+        },
+        {
+          "w": 1200,
+          "h": 1019,
+          "jpg": "walkway-01-1200.jpg",
+          "webp": "walkway-01-1200.webp",
+          "avif": "walkway-01-1200.avif",
+          "bytes": {
+            "jpg": 408090,
+            "webp": 371146,
+            "avif": 216919
+          }
+        },
+        {
+          "w": 1320,
+          "h": 1121,
+          "jpg": "walkway-01-1320.jpg",
+          "webp": "walkway-01-1320.webp",
+          "avif": "walkway-01-1320.avif",
+          "bytes": {
+            "jpg": 476713,
+            "webp": 436300,
+            "avif": 256943
+          }
+        }
+      ]
+    },
+    {
+      "id": "walkway-02",
+      "file": "walkway-02.jpg",
+      "source": "midias/raw/patio/1hhHSD_IMG_3902.PNG",
+      "width": 1320,
+      "height": 1333,
+      "aspect": 0.99,
+      "orientation": "square",
+      "service": "walkway",
+      "finish": "stamped (flagstone + charcoal border)",
+      "moment": "after",
+      "hero": false,
+      "lcp_ok": false,
+      "composition": "Walkway sobe até o patio da fogueira no topo do quadro; gramado dos dois lados.",
+      "alt": "Stamped concrete walkway with a charcoal border leading to a fire-pit patio",
+      "dominant_color": "#5E583D",
+      "focal_point": {
+        "x": 50,
+        "y": 55,
+        "object_position": "50% 55%"
+      },
+      "processing": [
+        "nenhum corte"
+      ],
+      "notes": "",
+      "variants": [
+        {
+          "w": 480,
+          "h": 485,
+          "jpg": "walkway-02-480.jpg",
+          "webp": "walkway-02-480.webp",
+          "avif": "walkway-02-480.avif",
+          "bytes": {
+            "jpg": 73011,
+            "webp": 66176,
+            "avif": 40075
+          }
+        },
+        {
+          "w": 800,
+          "h": 808,
+          "jpg": "walkway-02-800.jpg",
+          "webp": "walkway-02-800.webp",
+          "avif": "walkway-02-800.avif",
+          "bytes": {
+            "jpg": 234046,
+            "webp": 219296,
+            "avif": 127183
+          }
+        },
+        {
+          "w": 1200,
+          "h": 1212,
+          "jpg": "walkway-02-1200.jpg",
+          "webp": "walkway-02-1200.webp",
+          "avif": "walkway-02-1200.avif",
+          "bytes": {
+            "jpg": 567668,
+            "webp": 540274,
+            "avif": 305293
+          }
+        },
+        {
+          "w": 1320,
+          "h": 1333,
+          "jpg": "walkway-02-1320.jpg",
+          "webp": "walkway-02-1320.webp",
+          "avif": "walkway-02-1320.avif",
+          "bytes": {
+            "jpg": 703902,
+            "webp": 684702,
+            "avif": 391889
+          }
+        }
+      ]
+    },
+    {
+      "id": "walkway-03",
+      "file": "walkway-03.jpg",
+      "source": "midias/raw/patio/1wsRRA_IMG_2405.PNG",
+      "width": 1320,
+      "height": 1468,
+      "aspect": 0.899,
+      "orientation": "portrait",
+      "service": "walkway",
+      "finish": "broom",
+      "moment": "after",
+      "hero": false,
+      "lcp_ok": false,
+      "composition": "Walkway + patio com extremidade redonda; campo aberto e céu claro ~35% superior.",
+      "alt": "Broom-finish concrete walkway and patio with a rounded end, open field behind",
+      "dominant_color": "#27221C",
+      "focal_point": {
+        "x": 40,
+        "y": 55,
+        "object_position": "40% 55%"
+      },
+      "processing": [
+        "nenhum corte"
+      ],
+      "notes": "um dos poucos exemplos de broom fora de driveway",
+      "variants": [
+        {
+          "w": 480,
+          "h": 534,
+          "jpg": "walkway-03-480.jpg",
+          "webp": "walkway-03-480.webp",
+          "avif": "walkway-03-480.avif",
+          "bytes": {
+            "jpg": 49048,
+            "webp": 33512,
+            "avif": 23741
+          }
+        },
+        {
+          "w": 800,
+          "h": 890,
+          "jpg": "walkway-03-800.jpg",
+          "webp": "walkway-03-800.webp",
+          "avif": "walkway-03-800.avif",
+          "bytes": {
+            "jpg": 124617,
+            "webp": 83314,
+            "avif": 59320
+          }
+        },
+        {
+          "w": 1200,
+          "h": 1335,
+          "jpg": "walkway-03-1200.jpg",
+          "webp": "walkway-03-1200.webp",
+          "avif": "walkway-03-1200.avif",
+          "bytes": {
+            "jpg": 232449,
+            "webp": 140164,
+            "avif": 103563
+          }
+        },
+        {
+          "w": 1320,
+          "h": 1468,
+          "jpg": "walkway-03-1320.jpg",
+          "webp": "walkway-03-1320.webp",
+          "avif": "walkway-03-1320.avif",
+          "bytes": {
+            "jpg": 272989,
+            "webp": 158620,
+            "avif": 115999
+          }
+        }
+      ]
+    },
+    {
+      "id": "walkway-04",
+      "file": "walkway-04.jpg",
+      "source": "midias/raw/driveway/1bkzsa_IMG_5188.PNG",
+      "width": 1290,
+      "height": 1146,
+      "aspect": 1.126,
+      "orientation": "landscape",
+      "service": "walkway",
+      "finish": "stamped (ashlar)",
+      "moment": "during (concreto pronto, entorno em obra)",
+      "hero": false,
+      "lcp_ok": false,
+      "composition": "Selo '2/6' do app removido (75 px do topo). Walkway sinuoso com entulho ao redor.",
+      "alt": "Winding ashlar-pattern stamped concrete walkway with landscaping still in progress",
+      "dominant_color": "#221915",
+      "focal_point": {
+        "x": 45,
+        "y": 60,
+        "object_position": "45% 60%"
+      },
+      "processing": [
+        "corte extra (l,t,r,b = (0, 75, 0, 0))"
+      ],
+      "notes": "preview do cliente (PRV IMG_5188)",
+      "variants": [
+        {
+          "w": 480,
+          "h": 426,
+          "jpg": "walkway-04-480.jpg",
+          "webp": "walkway-04-480.webp",
+          "avif": "walkway-04-480.avif",
+          "bytes": {
+            "jpg": 70970,
+            "webp": 61208,
+            "avif": 34951
+          }
+        },
+        {
+          "w": 800,
+          "h": 711,
+          "jpg": "walkway-04-800.jpg",
+          "webp": "walkway-04-800.webp",
+          "avif": "walkway-04-800.avif",
+          "bytes": {
+            "jpg": 190747,
+            "webp": 165618,
+            "avif": 95840
+          }
+        },
+        {
+          "w": 1200,
+          "h": 1066,
+          "jpg": "walkway-04-1200.jpg",
+          "webp": "walkway-04-1200.webp",
+          "avif": "walkway-04-1200.avif",
+          "bytes": {
+            "jpg": 395853,
+            "webp": 334610,
+            "avif": 195720
+          }
+        },
+        {
+          "w": 1290,
+          "h": 1146,
+          "jpg": "walkway-04-1290.jpg",
+          "webp": "walkway-04-1290.webp",
+          "avif": "walkway-04-1290.avif",
+          "bytes": {
+            "jpg": 456487,
+            "webp": 386816,
+            "avif": 225450
+          }
+        }
+      ]
+    },
+    {
+      "id": "steps-01",
+      "file": "steps-01.jpg",
+      "source": "midias/raw/patio/1_lZIT_IMG_2256.PNG",
+      "width": 1320,
+      "height": 1243,
+      "aspect": 1.062,
+      "orientation": "square",
+      "service": "steps",
+      "finish": "stamped (ashlar + smooth step faces)",
+      "moment": "after",
+      "hero": false,
+      "lcp_ok": false,
+      "composition": "Patio com degrau de largura total; céu azul à esquerda superior.",
+      "alt": "Stamped concrete patio with a full-width step down to the yard",
+      "dominant_color": "#78899A",
+      "focal_point": {
+        "x": 45,
+        "y": 60,
+        "object_position": "45% 60%"
+      },
+      "processing": [
+        "nenhum corte"
+      ],
+      "notes": "",
+      "variants": [
+        {
+          "w": 480,
+          "h": 452,
+          "jpg": "steps-01-480.jpg",
+          "webp": "steps-01-480.webp",
+          "avif": "steps-01-480.avif",
+          "bytes": {
+            "jpg": 66760,
+            "webp": 54440,
+            "avif": 31665
+          }
+        },
+        {
+          "w": 800,
+          "h": 753,
+          "jpg": "steps-01-800.jpg",
+          "webp": "steps-01-800.webp",
+          "avif": "steps-01-800.avif",
+          "bytes": {
+            "jpg": 197390,
+            "webp": 167092,
+            "avif": 99137
+          }
+        },
+        {
+          "w": 1200,
+          "h": 1130,
+          "jpg": "steps-01-1200.jpg",
+          "webp": "steps-01-1200.webp",
+          "avif": "steps-01-1200.avif",
+          "bytes": {
+            "jpg": 434243,
+            "webp": 370804,
+            "avif": 217238
+          }
+        },
+        {
+          "w": 1320,
+          "h": 1243,
+          "jpg": "steps-01-1320.jpg",
+          "webp": "steps-01-1320.webp",
+          "avif": "steps-01-1320.avif",
+          "bytes": {
+            "jpg": 518541,
+            "webp": 447262,
+            "avif": 265540
+          }
+        }
+      ]
+    },
+    {
+      "id": "steps-02",
+      "file": "steps-02.jpg",
+      "source": "midias/raw/patio/1BkFDi_IMG_8269.PNG",
+      "width": 1251,
+      "height": 955,
+      "aspect": 1.31,
+      "orientation": "landscape",
+      "service": "steps",
+      "finish": "stamped (ashlar)",
+      "moment": "after",
+      "hero": false,
+      "lcp_ok": false,
+      "composition": "Patio elevado com degraus para a porta e mureta de blocos. Barra de rolagem do app removida (28 px à direita).",
+      "alt": "Raised stamped concrete patio with steps to the back door and a block seat wall",
+      "dominant_color": "#5A6568",
+      "focal_point": {
+        "x": 45,
+        "y": 45,
+        "object_position": "45% 45%"
+      },
+      "processing": [
+        "bordas uniformes removidas (l,t,r,b = (4, 0, 4, 0))",
+        "corte extra (l,t,r,b = (3, 0, 28, 0))"
+      ],
+      "notes": "mureta é de bloco segmentado (não é retaining wall de concreto)",
+      "variants": [
+        {
+          "w": 480,
+          "h": 366,
+          "jpg": "steps-02-480.jpg",
+          "webp": "steps-02-480.webp",
+          "avif": "steps-02-480.avif",
+          "bytes": {
+            "jpg": 47220,
+            "webp": 36750,
+            "avif": 21947
+          }
+        },
+        {
+          "w": 800,
+          "h": 611,
+          "jpg": "steps-02-800.jpg",
+          "webp": "steps-02-800.webp",
+          "avif": "steps-02-800.avif",
+          "bytes": {
+            "jpg": 120082,
+            "webp": 88498,
+            "avif": 54771
+          }
+        },
+        {
+          "w": 1200,
+          "h": 916,
+          "jpg": "steps-02-1200.jpg",
+          "webp": "steps-02-1200.webp",
+          "avif": "steps-02-1200.avif",
+          "bytes": {
+            "jpg": 229531,
+            "webp": 153370,
+            "avif": 100952
+          }
+        },
+        {
+          "w": 1251,
+          "h": 955,
+          "jpg": "steps-02-1251.jpg",
+          "webp": "steps-02-1251.webp",
+          "avif": "steps-02-1251.avif",
+          "bytes": {
+            "jpg": 246788,
+            "webp": 164276,
+            "avif": 107834
+          }
+        }
+      ]
+    },
+    {
+      "id": "steps-03",
+      "file": "steps-03.jpg",
+      "source": "midias/raw/patio/1kiGxS_IMG_2407.PNG",
+      "width": 1320,
+      "height": 1440,
+      "aspect": 0.917,
+      "orientation": "square",
+      "service": "steps",
+      "finish": "stamped (wood plank)",
+      "moment": "after",
+      "hero": false,
+      "lcp_ok": false,
+      "composition": "Estampa de madeira em 1º plano; degraus redondos ao fundo.",
+      "alt": "Wood-plank stamped concrete patio with rounded stamped steps",
+      "dominant_color": "#7C91AE",
+      "focal_point": {
+        "x": 55,
+        "y": 35,
+        "object_position": "55% 35%"
+      },
+      "processing": [
+        "nenhum corte"
+      ],
+      "notes": "",
+      "variants": [
+        {
+          "w": 480,
+          "h": 524,
+          "jpg": "steps-03-480.jpg",
+          "webp": "steps-03-480.webp",
+          "avif": "steps-03-480.avif",
+          "bytes": {
+            "jpg": 64359,
+            "webp": 50366,
+            "avif": 31661
+          }
+        },
+        {
+          "w": 800,
+          "h": 873,
+          "jpg": "steps-03-800.jpg",
+          "webp": "steps-03-800.webp",
+          "avif": "steps-03-800.avif",
+          "bytes": {
+            "jpg": 167383,
+            "webp": 125576,
+            "avif": 81117
+          }
+        },
+        {
+          "w": 1200,
+          "h": 1309,
+          "jpg": "steps-03-1200.jpg",
+          "webp": "steps-03-1200.webp",
+          "avif": "steps-03-1200.avif",
+          "bytes": {
+            "jpg": 320289,
+            "webp": 223576,
+            "avif": 148340
+          }
+        },
+        {
+          "w": 1320,
+          "h": 1440,
+          "jpg": "steps-03-1320.jpg",
+          "webp": "steps-03-1320.webp",
+          "avif": "steps-03-1320.avif",
+          "bytes": {
+            "jpg": 367159,
+            "webp": 256710,
+            "avif": 171561
+          }
+        }
+      ]
+    },
+    {
+      "id": "slab-commercial-during-01",
+      "file": "slab-commercial-during-01.jpg",
+      "source": "midias/raw/driveway/181hkj_IMG_6618.PNG",
+      "width": 1290,
+      "height": 1720,
+      "aspect": 0.75,
+      "orientation": "portrait",
+      "service": "slab",
+      "finish": "n/a (concretagem sobre tela soldada)",
+      "moment": "during",
+      "hero": false,
+      "lcp_ok": false,
+      "composition": "Recorte da área de foto de um print do iPhone. Concretagem em doca de carga sobre tela; trabalhadores pequenos ao fundo (rostos não identificáveis).",
+      "alt": "Concrete being placed over welded wire mesh in front of a commercial loading dock",
+      "dominant_color": "#766B5C",
+      "focal_point": {
+        "x": 45,
+        "y": 55,
+        "object_position": "45% 55%"
+      },
+      "processing": [
+        "recorte da área da foto no print (y 538–2258)"
+      ],
+      "notes": "preview do cliente (PRV IMG_6618); obra comercial",
+      "variants": [
+        {
+          "w": 480,
+          "h": 640,
+          "jpg": "slab-commercial-during-01-480.jpg",
+          "webp": "slab-commercial-during-01-480.webp",
+          "avif": "slab-commercial-during-01-480.avif",
+          "bytes": {
+            "jpg": 95663,
+            "webp": 78600,
+            "avif": 47941
+          }
+        },
+        {
+          "w": 800,
+          "h": 1067,
+          "jpg": "slab-commercial-during-01-800.jpg",
+          "webp": "slab-commercial-during-01-800.webp",
+          "avif": "slab-commercial-during-01-800.avif",
+          "bytes": {
+            "jpg": 268091,
+            "webp": 219010,
+            "avif": 134388
+          }
+        },
+        {
+          "w": 1200,
+          "h": 1600,
+          "jpg": "slab-commercial-during-01-1200.jpg",
+          "webp": "slab-commercial-during-01-1200.webp",
+          "avif": "slab-commercial-during-01-1200.avif",
+          "bytes": {
+            "jpg": 548700,
+            "webp": 443146,
+            "avif": 265046
+          }
+        },
+        {
+          "w": 1290,
+          "h": 1720,
+          "jpg": "slab-commercial-during-01-1290.jpg",
+          "webp": "slab-commercial-during-01-1290.webp",
+          "avif": "slab-commercial-during-01-1290.avif",
+          "bytes": {
+            "jpg": 634830,
+            "webp": 510364,
+            "avif": 305490
+          }
+        }
+      ]
+    }
+  ],
+  "video": {
+    "id": "video-pour-01",
+    "source": "midias/raw/videos/1EA3Fy_IMG_9493.mov",
+    "codec": "HEVC (H.265) + AAC",
+    "width": 1080,
+    "height": 1920,
+    "orientation": "portrait",
+    "fps": 30,
+    "duration_s": 15.47,
+    "size_mb": 23.6,
+    "content": "Concretagem de uma grande laje em volta de uma casa de madeira com deck elevado: régua/sarrafeamento, desempeno, equipe espalhando o concreto e, no fim, lavagem com lavadora de alta pressão. Rostos da equipe visíveis.",
+    "poster": {
+      "file": "video-pour-01-poster.jpg",
+      "frame_s": 10,
+      "variants": [
+        {
+          "w": 480,
+          "h": 853,
+          "jpg": "video-pour-01-poster-480.jpg",
+          "webp": "video-pour-01-poster-480.webp"
+        },
+        {
+          "w": 800,
+          "h": 1422,
+          "jpg": "video-pour-01-poster-800.jpg",
+          "webp": "video-pour-01-poster-800.webp"
+        },
+        {
+          "w": 1080,
+          "h": 1920,
+          "jpg": "video-pour-01-poster-1080.jpg",
+          "webp": "video-pour-01-poster-1080.webp"
+        }
+      ],
+      "alt": "Crew finishing a large concrete pour beside a wood home with an elevated deck"
+    },
+    "notes": "Não convertido. Para web: transcodificar para H.264/MP4 + WebM ≤ 720p, sem áudio se for autoplay. HEVC não toca em todos os browsers. Rostos visíveis: exige OK antes de publicar."
+  }
+}

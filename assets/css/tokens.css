@@ -1,0 +1,33 @@
+
+:root {
+
+  --c-orange: #FE5600;   --c-orange-hover: #FB8605;  --c-orange-text: #B84300;
+  --c-ink: #1D1D1B;      --c-ink-raised: #2B2A27;    --c-ink-line: #3A3936;
+  --c-cured: #F3F1ED;    --c-slab: #E6E3DD;          --c-aggregate: #CFCAC1;
+  --c-muted: #5C5852;    --c-muted-dark: #B5B0A7;    --c-white: #FFFFFF;
+  --c-error: #C0261A;    --c-success: #1E7A35;
+  --c-yellow: #FDC70C;
+
+  --f-sans: 'Archivo', system-ui, sans-serif;
+  --f-mono: 'IBM Plex Mono', ui-monospace, monospace;
+  --t-display: 900 clamp(84px, 15vw, 240px)/.8 var(--f-sans);
+  --t-h1: 850 clamp(44px, 6vw, 88px)/.9 var(--f-sans);
+  --t-h2: 800 clamp(32px, 4vw, 48px)/1 var(--f-sans);
+  --t-h3: 700 24px/1.2 var(--f-sans);
+  --t-lead: 400 20px/1.5 var(--f-sans);
+  --t-body: 400 17px/1.6 var(--f-sans);
+  --t-button: 700 16px/1 var(--f-sans);
+  --t-label: 500 12px/1.4 var(--f-mono);
+
+  --s-1: 4px; --s-2: 8px; --s-3: 12px; --s-4: 16px; --s-6: 24px;
+  --s-8: 32px; --s-12: 48px; --s-16: 64px; --s-section: clamp(80px, 10vw, 160px);
+
+  --radius: 0px;
+  --ease-pour: cubic-bezier(.7, 0, .2, 1);
+  --ease-set:  cubic-bezier(.2, .8, .2, 1);
+  --ease-cure: ease;
+
+  --grid-max: 1320px;
+  --gutter: 24px;
+  --margin: clamp(20px, 4vw, 56px);
+}
