@@ -517,7 +517,7 @@
   });
 
   // service radius drawn like a tape measure from Webster
-  $$('[data-map]').forEach(function (map) {
+  $$('[data-map]:not(.map--geo)').forEach(function (map) {
     var ring = $('.map__ring', map);
     if (ring && ring.getTotalLength) map.style.setProperty('--len', Math.ceil(ring.getTotalLength()) + 1);
     map.classList.add('is-armed');
@@ -779,4 +779,342 @@
       wasOpen = open;
     }).observe(doc.documentElement, { attributes: true, attributeFilter: ['class'] });
   })();
+})();
+
+/* Home: the slab builds, control joints between chapters, header progress (home only).
+   1. "The slab builds": the stage follows the text being read (call, visit, estimate, forms, reinforcement, pour,
+      finish, control joints, finishes); each stage lights its layer of the drawing and shows its real photo.
+   2. Control joints between chapters: the cut runs once when the joint enters the screen.
+   3. Header progress rule with a joint at each chapter.
+   Reduced motion: the scene and the joints stay in their final state; the progress rule still follows the scroll. */
+(function () {
+  'use strict';
+
+  var doc = document;
+  var reduce = window.matchMedia('(prefers-reduced-motion: reduce)').matches;
+  var hasIO = 'IntersectionObserver' in window;
+  function $$(sel, ctx) { return Array.prototype.slice.call((ctx || doc).querySelectorAll(sel)); }
+
+  /* ── 1. the slab builds ── */
+  (function scene() {
+    var box = doc.querySelector('[data-slabx]');
+    if (!box || reduce || !hasIO) return;
+    var ORDER = ['call', 'visit', 'estimate', 'forms', 'rebar', 'pour', 'finish', 'joint', 'fin'];
+    var items = $$('[data-stage]', box);
+    var steps = $$('.slabx__step', box);
+    var phases = $$('.slabx__ph', box);
+    var big = box.querySelector('[data-bign]');
+    var view = box.querySelector('.slabx__view');
+    var wipe = box.querySelector('.slabx__wipe');
+    var stage = box.querySelector('.slabx__stage');
+    var SHOTS = { forms: 1, rebar: 1, pour: 1, finish: 1 };
+    var cur = -1;
+    var live = false;
+    var ticking = false;
+
+    box.classList.add('is-armed');
+
+    function set(k) {
+      if (k === cur) return;
+      var prev = cur;
+      cur = k;
+      ORDER.forEach(function (name, i) { box.classList.toggle('at-' + name, i <= k); });
+      var now = ORDER[k];
+      if (big && k < 3) big.textContent = '0' + (k + 1);
+      steps.forEach(function (s) { s.classList.remove('is-lit'); });
+      phases.forEach(function (p) { p.classList.toggle('is-lit', p.getAttribute('data-stage') === now); });
+      var item = items.filter(function (it) { return it.getAttribute('data-stage') === now; })[0];
+      var step = item && item.closest('.slabx__step');
+      if (step) step.classList.add('is-lit');
+      // a new photo comes in behind the screed bar, only when the photo changes and the stage is visible
+      if (wipe && view && view.offsetWidth && prev !== -1 && SHOTS[now] && k > prev) {
+        view.style.setProperty('--vw', view.offsetWidth + 'px');
+        wipe.classList.remove('is-run');
+        void wipe.offsetWidth;
+        wipe.classList.add('is-run');
+      }
+    }
+
+    // the stage is the last item whose top passed the reading line (under the held drawing on phones)
+    function pick() {
+      ticking = false;
+      var line = window.innerHeight * 0.55;
+      if (stage && getComputedStyle(stage).order === '-1') line = Math.max(line, stage.getBoundingClientRect().bottom + 48);
+      var k = 0;
+      items.forEach(function (it) {
+        if (it.getBoundingClientRect().top < line) k = Math.max(k, ORDER.indexOf(it.getAttribute('data-stage')));
+      });
+      set(k);
+    }
+    function onScroll() {
+      if (!live || ticking) return;
+      ticking = true;
+      window.requestAnimationFrame(pick);
+    }
+    new IntersectionObserver(function (es) {
+      live = es[0].isIntersecting;
+      if (live) pick();
+    }, { threshold: 0 }).observe(box);
+    window.addEventListener('scroll', onScroll, { passive: true });
+    window.addEventListener('resize', onScroll);
+    set(0);
+    pick();
+  })();
+
+  /* ── 2. control joints between chapters ── */
+  $$('[data-cut]').forEach(function (cut) {
+    if (reduce || !hasIO) return;
+    if (cut.getBoundingClientRect().top < window.innerHeight * 0.9) return;
+    cut.classList.add('is-armed');
+    var io = new IntersectionObserver(function (es) {
+      if (es[0].isIntersecting) { io.disconnect(); cut.classList.add('is-on'); }
+    }, { rootMargin: '0px 0px -18% 0px', threshold: 0 });
+    io.observe(cut);
+  });
+
+  /* ── 3. header progress rule: a joint at each chapter ── */
+  (function progress() {
+    var hdr = doc.querySelector('[data-hdr]');
+    if (!hdr || !doc.querySelector('[data-slabx]')) return;
+    var bar = doc.createElement('div');
+    bar.className = 'prog';
+    bar.setAttribute('aria-hidden', 'true');
+    bar.innerHTML = '<span class="prog__fill"></span>';
+    hdr.appendChild(bar);
+    var fill = bar.firstChild;
+    var cuts = $$('[data-cut]');
+    var ticking = false;
+    function joints() {
+      $$('.prog__j', bar).forEach(function (j) { j.remove(); });
+      var max = doc.documentElement.scrollHeight - window.innerHeight;
+      if (max <= 0) return;
+      cuts.forEach(function (c) {
+        var y = c.getBoundingClientRect().top + window.pageYOffset - window.innerHeight * 0.5;
+        var j = doc.createElement('span');
+        j.className = 'prog__j';
+        j.style.left = Math.min(100, Math.max(0, y / max * 100)).toFixed(2) + '%';
+        bar.appendChild(j);
+      });
+    }
+    function paint() {
+      ticking = false;
+      var max = doc.documentElement.scrollHeight - window.innerHeight;
+      var p = max > 0 ? Math.min(1, Math.max(0, window.pageYOffset / max)) : 0;
+      fill.style.transform = 'scaleX(' + p.toFixed(4) + ')';
+    }
+    window.addEventListener('scroll', function () {
+      if (ticking) return;
+      ticking = true;
+      window.requestAnimationFrame(paint);
+    }, { passive: true });
+    var rz = null;
+    window.addEventListener('resize', function () { clearTimeout(rz); rz = setTimeout(function () { joints(); paint(); }, 150); });
+    if (doc.readyState === 'complete') { joints(); paint(); }
+    else window.addEventListener('load', function () { joints(); paint(); });
+    paint();
+  })();
+})();
+
+/* Service-area map: the tape measures the radius.
+   When the map comes into view the tape leaves Webster and runs out 0 to 40 miles; each town lights up as the tape
+   passes its real straight-line distance. At 40 miles the tape becomes the radius and swings once around the pin like
+   a compass, drawing the 40-mile ring; Webster marks the end. Afterwards, pointing at (or tapping) a town swings the
+   tape to it and reads the distance. Reduced motion: no run, the map is already complete; the reading still works.
+   Without JS the map is complete as written (tape at rest, ring, every town). */
+(function () {
+  'use strict';
+  var doc = document;
+  var reduce = window.matchMedia('(prefers-reduced-motion: reduce)').matches;
+  var fine = window.matchMedia('(hover: hover) and (pointer: fine)').matches;
+
+  Array.prototype.forEach.call(doc.querySelectorAll('.map--geo'), function (fig) {
+    var svg = fig.querySelector('.map__over');
+    var fx = fig.querySelector('.map__fx');
+    var arm = fig.querySelector('[data-arm]');
+    var clip = fig.querySelector('[data-arm-clip]');
+    var ring = fig.querySelector('.map__ring');
+    var reach = fig.querySelector('.map__reach');
+    var home = fig.querySelector('.map__home');
+    var counters = Array.prototype.slice.call(fig.querySelectorAll('[data-counter]'));
+    if (!svg || !fx || !arm || !clip || !ring || !ring.getTotalLength) return;
+    var cx = parseFloat(fx.getAttribute('data-cx'));
+    var cy = parseFloat(fx.getAttribute('data-cy'));
+    var upm = parseFloat(fx.getAttribute('data-upm'));
+    var FULL = 40 * upm;
+    var towns = Array.prototype.slice.call(fig.querySelectorAll('[data-town]'));
+    var rest = counters.map(function (c) { return [c.getAttribute('x'), c.getAttribute('y'), c.getAttribute('text-anchor'), c.textContent]; });
+    var len = ring.getTotalLength();
+    var cur = { deg: 0, len: FULL };
+    var tween = null;
+
+    // deg: clockwise from due south; length in map units
+    function setArm(deg, l) {
+      cur.deg = deg;
+      cur.len = l;
+      arm.setAttribute('transform', 'rotate(' + deg.toFixed(2) + ' ' + cx + ' ' + cy + ')');
+      clip.setAttribute('height', Math.max(0, l).toFixed(1));
+    }
+    function setCounter(deg, l, text) {
+      // the reading stays inside the ring: a little back from the tape end, and it reads toward the center
+      var r = deg * Math.PI / 180;
+      var sn = Math.sin(r);
+      var inl = l > 80 ? l - 30 : l;
+      var px = cx - sn * inl;
+      var py = cy + Math.cos(r) * inl;
+      var left = sn > 0.25;
+      var right = sn < -0.25;
+      var tx = left ? px + 10 : right ? px - 10 : px + 22;
+      var ty = py + 8 + (left || right ? 30 * Math.abs(sn) : 0);
+      counters.forEach(function (c) {
+        c.setAttribute('x', tx.toFixed(1));
+        c.setAttribute('y', ty.toFixed(1));
+        c.setAttribute('text-anchor', right ? 'end' : 'start');
+        // the tape end reads the miles; the town being measured is highlighted in its own label
+        var t = text.indexOf(' · ') > -1 ? text.split(' · ')[1] : text;
+        if (c.textContent !== t) c.textContent = t;
+      });
+    }
+    function restCounter() {
+      counters.forEach(function (c, i) {
+        c.setAttribute('x', rest[i][0]);
+        c.setAttribute('y', rest[i][1]);
+        c.setAttribute('text-anchor', rest[i][2]);
+        c.textContent = rest[i][3];
+      });
+    }
+    function lit(mi) {
+      towns.forEach(function (t) {
+        var on = parseFloat(t.getAttribute('data-mi')) <= mi + 0.001;
+        if (on !== t.classList.contains('is-lit')) t.classList.toggle('is-lit', on);
+      });
+    }
+    function ease(t) { return t < 0.5 ? 4 * t * t * t : 1 - Math.pow(-2 * t + 2, 3) / 2; }
+
+    var ran = false;
+    function finish() {
+      if (ran) return;
+      ran = true;
+      fig.classList.remove('is-run');
+      lit(99);
+      setArm(0, FULL);
+      restCounter();
+      ring.style.strokeDasharray = '';
+      ring.style.strokeDashoffset = '';
+      if (reach) reach.setAttribute('r', '0');
+      if (home && !reduce) home.classList.add('is-pulse');
+      fig.classList.add('is-live');
+    }
+    var primed = false;
+    var started = false;
+    // the start state is set just before the map scrolls in, so the finished map never flashes first
+    function prime() {
+      if (primed || ran) return;
+      primed = true;
+      fig.classList.add('is-run');
+      lit(-1);
+      setArm(0, 0);
+      setCounter(0, 0, '');
+      ring.style.strokeDasharray = len.toFixed(1);
+      ring.style.strokeDashoffset = len.toFixed(1);
+    }
+    function run() {
+      if (started || ran) return;
+      started = true;
+      prime();
+      var A = 1700;
+      var B = 1300;
+      var t0 = null;
+      function frame(ts) {
+        if (ran) return;
+        if (t0 === null) t0 = ts;
+        var t = ts - t0;
+        if (t < A) {
+          var mi = 40 * ease(t / A);
+          setArm(0, mi * upm);
+          if (reach) reach.setAttribute('r', (mi * upm).toFixed(1));
+          lit(mi);
+          setCounter(0, mi * upm, mi < 4 ? '' : Math.round(mi) + ' mi');
+        } else if (t < A + B) {
+          var q = ease((t - A) / B);
+          lit(40);
+          fig.classList.add('is-sweep');
+          setArm(360 * q, FULL);
+          ring.style.strokeDashoffset = (len * (1 - q)).toFixed(1);
+          setCounter(360 * q, FULL, '40 mi');
+        } else {
+          finish();
+          return;
+        }
+        window.requestAnimationFrame(frame);
+      }
+      window.requestAnimationFrame(frame);
+      // never leave the map half drawn (background tab, slow device)
+      setTimeout(finish, A + B + 2500);
+    }
+
+    // reading: the tape swings to a town and reads its real distance
+    function to(deg, l, text, ms) {
+      if (tween) window.cancelAnimationFrame(tween);
+      var d0 = cur.deg;
+      var l0 = cur.len;
+      var dd = ((deg - d0 + 540) % 360) - 180;
+      // the reading sits halfway along the tape: the far end belongs to the town's own label
+      if (reduce || !ms) { setArm(d0 + dd, l); if (text) setCounter(d0 + dd, l / 2, text); else restCounter(); return; }
+      var t0 = null;
+      function step(ts) {
+        if (t0 === null) t0 = ts;
+        var p = Math.min(1, (ts - t0) / ms);
+        var e = 1 - Math.pow(1 - p, 3);
+        setArm(d0 + dd * e, l0 + (l - l0) * e);
+        if (text) setCounter(d0 + dd * e, (l0 + (l - l0) * e) / 2, text);
+        if (p < 1) tween = window.requestAnimationFrame(step);
+        else if (!text) restCounter();
+      }
+      tween = window.requestAnimationFrame(step);
+    }
+    var active = '';
+    function measure(name) {
+      if (!fig.classList.contains('is-live') || name === active) return;
+      active = name;
+      towns.forEach(function (t) { t.classList.toggle('is-measured', t.getAttribute('data-town') === name); });
+      var p = fig.querySelector('.map__dot[data-town="' + name + '"]');
+      if (!p) { release(); return; }
+      var dx = parseFloat(p.getAttribute('cx')) - cx;
+      var dy = parseFloat(p.getAttribute('cy')) - cy;
+      var deg = Math.atan2(-dx, dy) * 180 / Math.PI;
+      var mi = Math.round(parseFloat(p.getAttribute('data-mi')));
+      to(deg, Math.sqrt(dx * dx + dy * dy) - 10, name + ' · ' + mi + ' mi', 420);
+    }
+    function release() {
+      if (!active) return;
+      active = '';
+      towns.forEach(function (t) { t.classList.remove('is-measured'); });
+      to(0, FULL, '', 420);
+    }
+    svg.addEventListener('pointerover', function (e) {
+      if (!fine) return;
+      var t = e.target.closest && e.target.closest('[data-town]');
+      if (t) measure(t.getAttribute('data-town'));
+    });
+    svg.addEventListener('pointerleave', function () { if (fine) release(); });
+    fig.addEventListener('click', function (e) {
+      var t = e.target.closest && e.target.closest('[data-town]');
+      if (t) measure(t.getAttribute('data-town'));
+      else if (!e.target.closest('a')) release();
+    });
+
+    if (reduce || !('IntersectionObserver' in window)) { finish(); return; }
+    var near = new IntersectionObserver(function (es) {
+      if (es[0].isIntersecting) prime();
+      else if (primed && !started) finish();
+    }, { rootMargin: '0px 0px 30% 0px', threshold: 0 });
+    near.observe(fig);
+    var io = new IntersectionObserver(function (es) {
+      if (!es[0].isIntersecting) return;
+      io.disconnect();
+      near.disconnect();
+      run();
+    }, { threshold: 0.45 });
+    io.observe(fig);
+  });
 })();
