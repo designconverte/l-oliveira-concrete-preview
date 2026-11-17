@@ -1118,3 +1118,106 @@
     io.observe(fig);
   });
 })();
+
+/* Google reviews widget (Trustindex, the business's own subscription).
+   The six literal reviews are already in the page and stay the content without JS, while the widget loads, and if it
+   fails or is blocked. Nothing from the widget host loads until the reviews band is close: a preconnect at about four
+   screens away, the loader at about two and a half (people who never scroll that far load nothing). The loader goes
+   inside the band (it renders next to its own script tag) in a hidden layer pinned to the screen at the band's width
+   (the widget only draws when it believes it is on screen), so it never moves the page; the cards
+   give way to the widget only once it has rendered and only while the band is still below the screen, so no visible
+   content jumps. If the band is already on screen or above, the cards stay for this visit. The widget's autoplay is
+   switched off (it moves the cards' layout box, which counts as layout shift); arrows and swipe stay. */
+(function () {
+  'use strict';
+  var doc = document;
+  var slot = doc.querySelector('[data-ti]');
+  if (!slot || !('IntersectionObserver' in window)) return;
+  var band = slot.closest('.rating');
+  var id = slot.getAttribute('data-ti').replace(/[^a-z0-9]/gi, '');
+  var host = 'https://cdn.trustindex.io';
+  var state = 'idle';
+  var timer = null;
+
+  function below() { return band.getBoundingClientRect().top > window.innerHeight; }
+  function giveUp() {
+    if (state === 'shown') return;
+    state = 'failed';
+    clearTimeout(timer);
+    band.classList.remove('is-ti-loading');
+    slot.hidden = true;
+    slot.innerHTML = '';
+  }
+  function show() {
+    state = 'shown';
+    clearTimeout(timer);
+    band.classList.remove('is-ti-loading');
+    band.classList.add('is-ti');
+  }
+  function rendered() {
+    var w = slot.querySelector('.ti-widget');
+    return !!(w && w.querySelector('.ti-review-item') && slot.getBoundingClientRect().height > 120);
+  }
+  // the widget's autoplay slides the cards by moving their layout box, which counts as layout shift every few
+  // seconds while the band is on screen; the arrows and swipe stay, the timer goes
+  function calm() {
+    var w = slot.querySelector('.ti-widget');
+    var sl = w && w.TrustindexSliderWidget;
+    if (!sl) return;
+    sl.autoPlayTimeout = 0;
+    clearInterval(sl.autoPlayInterval);
+  }
+  function ready() {
+    if (state !== 'loading') return;
+    calm();
+    setTimeout(calm, 1000);
+    setTimeout(calm, 3000);
+    if (below()) { show(); return; }
+    // the visitor is already at (or past) the band: keep the cards for this visit, no swap in view
+    giveUp();
+  }
+  function load() {
+    if (state !== 'idle') return;
+    state = 'loading';
+    band.style.setProperty('--ti-w', band.querySelector('.rating__in').clientWidth + 'px');
+    band.classList.add('is-ti-loading');
+    slot.hidden = false;
+    var s = doc.createElement('script');
+    s.async = true;
+    s.src = host + '/loader.js?' + id;
+    s.onerror = giveUp;
+    slot.appendChild(s);
+    var mo = new MutationObserver(function () {
+      if (rendered()) { mo.disconnect(); window.requestAnimationFrame(ready); }
+    });
+    mo.observe(slot, { childList: true, subtree: true });
+    timer = setTimeout(function () { mo.disconnect(); if (rendered()) ready(); else giveUp(); }, 8000);
+  }
+  function preconnect() {
+    if (doc.querySelector('link[data-ti-pre]')) return;
+    var l = doc.createElement('link');
+    l.rel = 'preconnect';
+    l.href = host;
+    l.crossOrigin = 'anonymous';
+    l.setAttribute('data-ti-pre', '');
+    doc.head.appendChild(l);
+  }
+  function watch(margin, fn) {
+    var io = new IntersectionObserver(function (es) {
+      if (!es[0].isIntersecting) return;
+      io.disconnect();
+      fn();
+    }, { rootMargin: '0px 0px ' + margin + ' 0px' });
+    io.observe(band);
+  }
+  function arm() {
+    // already at or past the band when the page settled (reload mid-page, anchor link): keep the cards
+    if (!below()) return;
+    watch('400%', preconnect);
+    // the widget's script runs in one long burst: hand it to an idle moment so it does not land mid-scroll
+    watch('250%', function () { if (window.requestIdleCallback) window.requestIdleCallback(load, { timeout: 1200 }); else load(); });
+  }
+  // never before the page has loaded
+  if (doc.readyState === 'complete') setTimeout(arm, 0);
+  else window.addEventListener('load', function () { setTimeout(arm, 0); });
+})();
